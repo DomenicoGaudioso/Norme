@@ -1,0 +1,116 @@
+{
+  "documento": "NTC_2018",
+  "pdf_originale": "DM_17_01_2018.pdf",
+  "pagine_totali": 372,
+  "strategia": "confini manuali",
+  "capitoli": [
+    {
+      "numero": 1,
+      "titolo": "Capitolo 1 - Oggetto",
+      "file": "01_Oggetto.pdf",
+      "pagine": 2,
+      "pag_inizio": 35,
+      "pag_fine": 36,
+      "dimensione_kb": 252
+    },
+    {
+      "numero": 2,
+      "titolo": "Capitolo 2 - Sicurezza e prestazioni attese",
+      "file": "02_Sicurezza_e_prestazioni_attese.pdf",
+      "pagine": 8,
+      "pag_inizio": 37,
+      "pag_fine": 44,
+      "dimensione_kb": 528
+    },
+    {
+      "numero": 3,
+      "titolo": "Capitolo 3 - Azioni sulle costruzioni",
+      "file": "03_Azioni_sulle_costruzioni.pdf",
+      "pagine": 28,
+      "pag_inizio": 45,
+      "pag_fine": 72,
+      "dimensione_kb": 1235
+    },
+    {
+      "numero": 4,
+      "titolo": "Capitolo 4 - Costruzioni civili e industriali",
+      "file": "04_Costruzioni_civili_e_industriali.pdf",
+      "pagine": 80,
+      "pag_inizio": 73,
+      "pag_fine": 152,
+      "dimensione_kb": 2345
+    },
+    {
+      "numero": 5,
+      "titolo": "Capitolo 5 - Ponti",
+      "file": "05_Ponti.pdf",
+      "pagine": 34,
+      "pag_inizio": 153,
+      "pag_fine": 186,
+      "dimensione_kb": 1715
+    },
+    {
+      "numero": 6,
+      "titolo": "Capitolo 6 - Progettazione geotecnica",
+      "file": "06_Progettazione_geotecnica.pdf",
+      "pagine": 24,
+      "pag_inizio": 187,
+      "pag_fine": 210,
+      "dimensione_kb": 786
+    },
+    {
+      "numero": 7,
+      "titolo": "Capitolo 7 - Progettazione per azioni sismiche",
+      "file": "07_Progettazione_per_azioni_sismiche.pdf",
+      "pagine": 82,
+      "pag_inizio": 211,
+      "pag_fine": 292,
+      "dimensione_kb": 2013
+    },
+    {
+      "numero": 8,
+      "titolo": "Capitolo 8 - Costruzioni esistenti",
+      "file": "08_Costruzioni_esistenti.pdf",
+      "pagine": 8,
+      "pag_inizio": 293,
+      "pag_fine": 300,
+      "dimensione_kb": 467
+    },
+    {
+      "numero": 9,
+      "titolo": "Capitolo 9 - Collaudo statico",
+      "file": "09_Collaudo_statico.pdf",
+      "pagine": 4,
+      "pag_inizio": 301,
+      "pag_fine": 304,
+      "dimensione_kb": 311
+    },
+    {
+      "numero": 10,
+      "titolo": "Capitolo 10 - Redazione dei progetti strutturali",
+      "file": "10_Redazione_dei_progetti_strutturali.pdf",
+      "pagine": 4,
+      "pag_inizio": 305,
+      "pag_fine": 308,
+      "dimensione_kb": 334
+    },
+    {
+      "numero": 11,
+      "titolo": "Capitolo 11 - Materiali e prodotti per uso strutturale",
+      "file": "11_Materiali_e_prodotti_per_uso_strutturale.pdf",
+      "pagine": 10,
+      "pag_inizio": 309,
+      "pag_fine": 318,
+      "dimensione_kb": 453
+    },
+    {
+      "numero": 12,
+      "titolo": "Capitolo 12 - Riferimenti tecnici normativi",
+      "file": "12_Riferimenti_tecnici_normativi.pdf",
+      "pagine": 54,
+      "pag_inizio": 319,
+      "pag_fine": 372,
+      "dimensione_kb": 1244
+    }
+  ]
+}

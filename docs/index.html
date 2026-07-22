@@ -4,107 +4,164 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Archivio Norme — Normativa tecnica italiana per le costruzioni</title>
-  <meta name="description" content="Archivio cronologico della normativa tecnica italiana per le costruzioni: 95 documenti dal 1906 al 2019.">
+  <meta name="description" content="Archivio cronologico della normativa tecnica italiana per le costruzioni: dal 1906 al 2019.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #1a3a5c;
-      --primary-light: #2c5f8a;
-      --accent: #2980b9;
-      --accent2: #27ae60;
-      --danger: #e74c3c;
-      --warn: #f39c12;
-      --bg: #f7f9fc;
-      --card: #ffffff;
-      --border: #e1e8ed;
-      --text: #2c3e50;
-      --text-muted: #6b7c8a;
-      --shadow: 0 2px 8px rgba(26, 58, 92, 0.08);
-      --shadow-hover: 0 6px 20px rgba(26, 58, 92, 0.15);
+      /* Palette civilbox.xyz */
+      --font-sans: "Poppins", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      --brand-50: #f0f9fa;
+      --brand-100: #d9eef1;
+      --brand-200: #b3dde3;
+      --brand-300: #7fc4ce;
+      --brand-400: #55b0bd;
+      --brand-500: #3ba3b2;
+      --brand-600: #2f8f9d;   /* primario turchese */
+      --brand-700: #227080;   /* hover */
+      /* grigi Tailwind */
+      --gray-50: #f9fafb;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-300: #d1d5db;
+      --gray-400: #9ca3af;
+      --gray-500: #6b7280;
+      --gray-600: #4b5563;
+      --gray-700: #374151;
+      --gray-800: #1f2937;
+      --gray-900: #111827;
+      --ink: #161616;   /* bordo nero civilbox */
+      --shadow-sm: 0 1px 2px rgba(31, 45, 61, 0.06);
+      --shadow-md: 0 2px 8px rgba(31, 45, 61, 0.08);
+      --shadow-lg: 0 12px 22px rgba(31, 45, 61, 0.12);
+      --shadow-brand: 0 12px 22px rgba(47, 143, 157, 0.25);
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
-    body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-      background: var(--bg);
-      color: var(--text);
+    html, body {
+      font-family: var(--font-sans);
+      background: var(--gray-50);
+      color: var(--gray-900);
       line-height: 1.6;
       min-height: 100vh;
     }
 
-    /* HERO */
-    .hero {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-      color: #fff;
-      padding: 60px 24px 80px;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
+    body { display: flex; flex-direction: column; }
+
+    /* === HEADER (civilbox style) === */
+    header.site {
+      background: #fff;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
-    .hero::after {
-      content: '';
-      position: absolute;
-      bottom: -50px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 120%;
-      height: 100px;
-      background: var(--bg);
-      border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    header.site nav {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-    .hero h1 {
-      font-size: 2.4rem;
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+    .logo svg { width: 32px; height: 32px; }
+    .logo .brand-a { color: var(--brand-600); }
+    .logo .brand-b { color: var(--brand-700); }
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      align-items: center;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    .nav-links a {
+      color: var(--gray-700);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .nav-links a:hover { color: var(--brand-600); }
+    .nav-links .badge-pro {
+      background: var(--brand-100);
+      color: var(--brand-700);
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 10px;
       font-weight: 700;
-      margin-bottom: 12px;
-      letter-spacing: -0.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-left: 4px;
     }
-    .hero p {
-      font-size: 1.1rem;
-      opacity: 0.92;
-      max-width: 720px;
+    @media (max-width: 760px) { .nav-links { display: none; } }
+
+    /* === HERO === */
+    .hero {
+      text-align: center;
+      padding: 60px 24px 40px;
+      max-width: 760px;
       margin: 0 auto;
     }
+    .hero h1 {
+      font-size: 2.6rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.1;
+      color: var(--gray-900);
+      margin-bottom: 16px;
+    }
+    .hero h1 .accent { color: var(--brand-600); }
+    .hero p {
+      font-size: 1.1rem;
+      color: var(--gray-600);
+      max-width: 600px;
+      margin: 0 auto 24px;
+    }
     .hero .stats {
-      margin-top: 28px;
       display: flex;
       justify-content: center;
-      gap: 36px;
+      gap: 40px;
       flex-wrap: wrap;
-      position: relative;
-      z-index: 2;
+      margin-top: 32px;
     }
-    .hero .stats div {
-      text-align: center;
-    }
+    .hero .stats div { text-align: center; }
     .hero .stats .num {
-      font-size: 2rem;
-      font-weight: 700;
       display: block;
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--brand-600);
     }
     .hero .stats .lab {
-      font-size: 0.85rem;
-      opacity: 0.85;
+      font-size: 0.8rem;
+      color: var(--gray-500);
       text-transform: uppercase;
       letter-spacing: 1px;
+      font-weight: 600;
     }
 
-    /* CONTAINER */
+    /* === CONTAINER === */
+    main { flex-grow: 1; }
     .container {
       max-width: 1180px;
       margin: 0 auto;
-      padding: 0 20px;
+      padding: 0 20px 80px;
     }
 
-    /* CONTROLS */
+    /* === CONTROLS === */
     .controls {
-      background: var(--card);
-      padding: 24px;
+      background: #fff;
+      padding: 22px;
       border-radius: 14px;
-      box-shadow: var(--shadow);
-      margin: -40px auto 28px;
-      position: relative;
-      z-index: 3;
-      max-width: 1180px;
+      box-shadow: var(--shadow-md);
+      margin-bottom: 24px;
     }
     .controls-grid {
       display: grid;
@@ -114,256 +171,393 @@
     }
     .controls label {
       display: block;
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       font-weight: 600;
-      color: var(--text-muted);
+      color: var(--gray-500);
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.6px;
       margin-bottom: 6px;
     }
     .controls input,
     .controls select {
       width: 100%;
-      padding: 10px 14px;
-      border: 1.5px solid var(--border);
+      padding: 11px 14px;
+      border: 1.5px solid var(--gray-300);
       border-radius: 8px;
       font-size: 0.95rem;
       font-family: inherit;
       background: #fff;
+      color: var(--gray-900);
       transition: border-color 0.15s, box-shadow 0.15s;
     }
     .controls input:focus,
     .controls select:focus {
       outline: none;
-      border-color: var(--accent);
-      box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.15);
+      border-color: var(--brand-600);
+      box-shadow: 0 0 0 3px rgba(47, 143, 157, 0.15);
     }
-    .btn-reset {
-      padding: 10px 18px;
-      background: var(--primary);
+    .btn {
+      padding: 11px 18px;
+      background: var(--brand-600);
       color: #fff;
       border: none;
       border-radius: 8px;
       font-size: 0.9rem;
-      font-weight: 600;
+      font-weight: 700;
       cursor: pointer;
-      transition: background 0.15s;
+      font-family: inherit;
+      transition: background 0.15s, transform 0.15s;
     }
-    .btn-reset:hover { background: var(--primary-light); }
+    .btn:hover { background: var(--brand-700); transform: translateY(-1px); }
 
-    /* RESULTS META */
+    /* === KEY DOCS BOX === */
+    .key-docs {
+      background: linear-gradient(135deg, var(--brand-50), rgba(217, 238, 241, 0.5));
+      border: 1.5px solid var(--brand-200);
+      border-radius: 12px;
+      padding: 18px 22px;
+      margin-bottom: 28px;
+      font-size: 0.92rem;
+    }
+    .key-docs strong {
+      color: var(--brand-700);
+      display: block;
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+    .key-docs ul { margin: 0 0 0 18px; color: var(--gray-700); }
+    .key-docs li { margin: 5px 0; }
+
+    /* === RESULTS META === */
     .results-meta {
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-bottom: 14px;
-      color: var(--text-muted);
+      color: var(--gray-500);
       font-size: 0.9rem;
     }
-    .results-meta strong { color: var(--primary); }
+    .results-meta strong { color: var(--brand-700); }
 
-    /* CARDS GRID */
+    /* === GRID CARDS === */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
       gap: 16px;
-      padding-bottom: 60px;
     }
     .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-left: 4px solid var(--accent);
-      border-radius: 10px;
+      background: #fff;
+      border: 2px solid var(--gray-200);
+      border-radius: 12px;
       padding: 18px 20px;
-      transition: box-shadow 0.18s, transform 0.18s;
+      transition: box-shadow 0.18s, transform 0.18s, border-color 0.18s;
       display: flex;
       flex-direction: column;
       gap: 8px;
     }
     .card:hover {
-      box-shadow: var(--shadow-hover);
+      box-shadow: var(--shadow-lg);
       transform: translateY(-2px);
+      border-color: var(--brand-300);
     }
-    .card.highlight {
-      border-left-color: var(--accent2);
+    .card.chiave {
+      border-color: var(--brand-300);
+      background: linear-gradient(to bottom, var(--brand-50) 0%, #fff 30%);
     }
-    .card .year-badge {
+    .card .top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+    .year-badge {
       display: inline-block;
-      background: var(--primary);
+      background: var(--brand-600);
       color: #fff;
-      padding: 2px 10px;
-      border-radius: 12px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      width: fit-content;
-    }
-    .card.highlight .year-badge { background: var(--accent2); }
-    .card .tipo {
+      padding: 3px 12px;
+      border-radius: 999px;
       font-size: 0.78rem;
-      color: var(--text-muted);
+      font-weight: 700;
+    }
+    .card.chiave .year-badge { background: var(--brand-700); }
+    .star-badge {
+      background: var(--brand-100);
+      color: var(--brand-700);
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .tipo {
+      font-size: 0.74rem;
+      color: var(--gray-500);
       text-transform: uppercase;
       letter-spacing: 0.5px;
       font-weight: 600;
     }
-    .card .titolo {
+    .titolo {
       font-size: 1rem;
       font-weight: 600;
-      color: var(--text);
+      color: var(--gray-900);
       line-height: 1.4;
     }
-    .card .estremi {
-      font-size: 0.88rem;
-      color: var(--text-muted);
+    .estremi {
+      font-size: 0.86rem;
+      color: var(--gray-500);
       font-style: italic;
     }
-    .card .link {
+    .actions {
       margin-top: auto;
-      padding-top: 8px;
+      padding-top: 10px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
     }
-    .card .link a {
+    .btn-link {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      color: var(--accent);
+      color: var(--brand-600);
       text-decoration: none;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       font-weight: 600;
-      padding: 6px 12px;
-      border: 1.5px solid var(--accent);
-      border-radius: 6px;
+      padding: 7px 14px;
+      border: 1.5px solid var(--brand-600);
+      border-radius: 8px;
       transition: all 0.15s;
+      background: transparent;
+      cursor: pointer;
+      font-family: inherit;
     }
-    .card .link a:hover {
-      background: var(--accent);
+    .btn-link:hover {
+      background: var(--brand-600);
       color: #fff;
     }
+    .btn-link.secondary {
+      border-color: var(--gray-300);
+      color: var(--gray-700);
+    }
+    .btn-link.secondary:hover {
+      background: var(--gray-100);
+      border-color: var(--gray-400);
+      color: var(--gray-900);
+    }
 
-    /* EMPTY STATE */
+    /* === ACCORDION CAPITOLI === */
+    .capitoli-panel {
+      grid-column: 1 / -1;
+      background: #fff;
+      border: 2px solid var(--brand-200);
+      border-radius: 12px;
+      padding: 20px 22px;
+      box-shadow: var(--shadow-md);
+      margin-bottom: 4px;
+    }
+    .capitoli-panel .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--gray-200);
+    }
+    .capitoli-panel .panel-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--brand-700);
+    }
+    .capitoli-panel .panel-close {
+      background: transparent;
+      border: none;
+      font-size: 1.4rem;
+      color: var(--gray-400);
+      cursor: pointer;
+      line-height: 1;
+      padding: 4px 8px;
+    }
+    .capitoli-panel .panel-close:hover { color: var(--gray-700); }
+    .capitoli-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 8px;
+    }
+    .cap-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      background: var(--gray-50);
+      border: 1.5px solid var(--gray-200);
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--gray-800);
+      transition: all 0.15s;
+      font-size: 0.9rem;
+    }
+    .cap-link:hover {
+      background: var(--brand-50);
+      border-color: var(--brand-400);
+      transform: translateX(2px);
+    }
+    .cap-link .num {
+      background: var(--brand-600);
+      color: #fff;
+      width: 26px;
+      height: 26px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.78rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .cap-link .title {
+      font-weight: 600;
+      flex-grow: 1;
+    }
+    .cap-link .pag {
+      color: var(--gray-400);
+      font-size: 0.78rem;
+      font-weight: 500;
+    }
+    .cap-loading {
+      grid-column: 1 / -1;
+      padding: 20px;
+      text-align: center;
+      color: var(--gray-500);
+    }
+
+    /* === EMPTY STATE === */
     .empty {
       grid-column: 1 / -1;
       text-align: center;
       padding: 60px 20px;
-      color: var(--text-muted);
+      color: var(--gray-500);
     }
     .empty .icon { font-size: 3rem; margin-bottom: 12px; }
 
-    /* FOOTER */
-    .footer {
-      background: var(--primary);
-      color: rgba(255,255,255,0.85);
-      padding: 30px 20px;
+    /* === FOOTER === */
+    footer.site {
+      background: #fff;
+      padding: 24px 20px;
       text-align: center;
+      color: var(--gray-500);
       font-size: 0.85rem;
-      margin-top: auto;
+      border-top: 1px solid var(--gray-200);
     }
-    .footer a { color: #fff; text-decoration: underline; }
+    footer.site a { color: var(--brand-600); text-decoration: none; font-weight: 600; }
+    footer.site a:hover { text-decoration: underline; }
 
-    /* LOADING */
     .loading {
       grid-column: 1 / -1;
       text-align: center;
       padding: 60px;
-      color: var(--text-muted);
+      color: var(--gray-500);
       font-size: 1.1rem;
     }
 
-    /* RESPONSIVE */
     @media (max-width: 760px) {
-      .controls-grid {
-        grid-template-columns: 1fr;
-      }
-      .hero h1 { font-size: 1.8rem; }
-      .hero .stats { gap: 20px; }
+      .controls-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 1.9rem; }
+      .hero .stats { gap: 22px; }
+      .hero { padding: 40px 20px 30px; }
     }
-
-    /* HIGHLIGHT BOX per documenti chiave */
-    .key-docs {
-      background: linear-gradient(135deg, rgba(39, 174, 96, 0.08), rgba(41, 128, 185, 0.06));
-      border: 1px solid rgba(39, 174, 96, 0.25);
-      border-radius: 10px;
-      padding: 16px 20px;
-      margin-bottom: 28px;
-      font-size: 0.9rem;
-    }
-    .key-docs strong { color: var(--accent2); }
-    .key-docs ul { margin: 8px 0 0 18px; }
-    .key-docs li { margin: 4px 0; }
   </style>
 </head>
 <body>
 
-  <header class="hero">
-    <h1>📚 Archivio Norme</h1>
-    <p>Storia della normativa tecnica italiana per le costruzioni — dal Regio Decreto 511/1906 alle Norme Tecniche per le Costruzioni del 2018</p>
-    <div class="stats">
-      <div><span class="num" id="stat-total">—</span><span class="lab">Documenti</span></div>
-      <div><span class="num">1906–2019</span><span class="lab">Periodo</span></div>
-      <div><span class="num">113</span><span class="lab">Anni di storia</span></div>
-    </div>
+  <header class="site">
+    <nav>
+      <div class="logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="14" cy="14" r="11" stroke="#4b5563" stroke-width="2"/>
+          <path d="M14 8 L14 14 L18 16" stroke="#2f8f9d" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M22 22 L28 28" stroke="#4b5563" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M14 4 L16 6 L14 8 L12 6 Z" fill="#2f8f9d"/>
+        </svg>
+        <span><span class="brand-a">Norme</span><span class="brand-b">IT</span></span>
+      </div>
+      <div class="nav-links">
+        <a href="#vigenti">Vigenti</a>
+        <a href="#archivio">Archivio</a>
+        <a href="https://github.com/DomenicoGaudioso/Norme">Repo</a>
+      </div>
+    </nav>
   </header>
 
-  <div class="container">
+  <main>
+    <section class="hero">
+      <h1>Archivio <span class="accent">Norme Tecniche</span><br>per le Costruzioni</h1>
+      <p>Storia della normativa tecnica italiana — dal Regio Decreto 511 del 1906 fino all'Aggiornamento delle Norme Tecniche per le Costruzioni del 2018.</p>
+      <div class="stats">
+        <div><span class="num" id="stat-total">—</span><span class="lab">Documenti</span></div>
+        <div><span class="num">1906–2019</span><span class="lab">Periodo</span></div>
+        <div><span class="num">113</span><span class="lab">Anni</span></div>
+      </div>
+    </section>
 
-    <div class="controls">
-      <div class="controls-grid">
-        <div>
-          <label for="search">🔍 Cerca nel testo (titolo, estremi, anno)</label>
-          <input type="text" id="search" placeholder="es. NTC 2018, cemento armato, OPCM, sismica...">
-        </div>
-        <div>
-          <label for="filter-anno">📅 Anno</label>
-          <select id="filter-anno"><option value="">Tutti gli anni</option></select>
-        </div>
-        <div>
-          <label for="filter-tipo">🏷️ Tipo atto</label>
-          <select id="filter-tipo"><option value="">Tutti i tipi</option></select>
-        </div>
-        <div>
-          <button class="btn-reset" id="btn-reset">↺ Reset</button>
+    <div class="container">
+
+      <div class="controls">
+        <div class="controls-grid">
+          <div>
+            <label for="search">🔍 Cerca nel testo</label>
+            <input type="text" id="search" placeholder="es. NTC 2018, cemento armato, OPCM, sismica...">
+          </div>
+          <div>
+            <label for="filter-anno">📅 Anno</label>
+            <select id="filter-anno"><option value="">Tutti</option></select>
+          </div>
+          <div>
+            <label for="filter-tipo">🏷️ Tipo atto</label>
+            <select id="filter-tipo"><option value="">Tutti</option></select>
+          </div>
+          <div>
+            <button class="btn" id="btn-reset">↺ Reset</button>
+          </div>
         </div>
       </div>
+
+      <div class="key-docs" id="vigenti">
+        <strong>⭐ Riferimenti normativi vigenti</strong>
+        <ul>
+          <li><strong>D.M. 17/01/2018</strong> — Aggiornamento delle NTC (NTC 2018) + Circolare applicativa n.7/2019.</li>
+          <li><strong>D.M. 14/01/2008</strong> — NTC 2008 (base storica) + Circolare n.617/2009.</li>
+          <li><strong>OPCM 3274/2003</strong> con modifiche 3316/2003 e 3333/2004 — Classificazione sismica.</li>
+        </ul>
+        <p style="margin-top:10px;color:var(--gray-600);font-size:0.85rem;">
+          💡 I documenti contrassegnati <span class="star-badge">⭐ Chiave</span> hanno lo <strong>split per capitoli</strong>: clicca "Vedi capitoli" per accedere al singolo capitolo.
+        </p>
+        <p style="margin-top:6px;color:var(--gray-600);font-size:0.85rem;">
+          📖 <strong>👁️ Visualizza</strong> apre il PDF nel browser (anteprima); <strong>⬇️ PDF</strong> lo scarica.
+        </p>
+      </div>
+
+      <div class="results-meta">
+        <span><strong id="result-count">—</strong> documenti trovati</span>
+        <span>Ordine cronologico ↑</span>
+      </div>
+
+      <div class="grid" id="grid">
+        <div class="loading">⏳ Caricamento documenti…</div>
+      </div>
+
     </div>
+  </main>
 
-    <div class="key-docs">
-      <strong>⭐ Riferimenti normativi vigenti:</strong>
-      <ul>
-        <li><strong>D.M. 17/01/2018</strong> — NTC 2018, Aggiornamento delle Norme Tecniche per le Costruzioni.</li>
-        <li><strong>Circolare 21/01/2019 n.7</strong> — Istruzioni per l'applicazione dell'Aggiornamento delle NTC.</li>
-        <li><strong>D.M. 14/01/2008</strong> — NTC 2008 (base storica) + Circolare n.617/2009.</li>
-        <li><strong>OPCM 3274/2003</strong> (con 3316/2003 e 3333/2004) — Classificazione sismica nazionale.</li>
-      </ul>
-    </div>
-
-    <div class="results-meta">
-      <span><strong id="result-count">—</strong> documenti trovati</span>
-      <span>Ordine cronologico ↑</span>
-    </div>
-
-    <div class="grid" id="grid">
-      <div class="loading">⏳ Caricamento documenti…</div>
-    </div>
-
-  </div>
-
-  <footer class="footer">
-    <p>Archivio normativo consultativo — tutti i documenti sono atti normativi italiani in Gazzetta Ufficiale (pubblico dominio).</p>
-    <p style="margin-top:8px;">Fonte: <a href="https://www.staticaesismica.it/staticaesismica_normativa.html">staticaesismica.it</a> · <a href="https://www.gazzettaufficiale.it/">Gazzetta Ufficiale</a></p>
+  <footer class="site">
+    <p>Archivio di documenti normativi italiani per le costruzioni.</p>
+    <p style="margin-top:8px;"><a href="https://github.com/DomenicoGaudioso/Norme">GitHub Repository</a></p>
   </footer>
 
   <script>
-    // Documenti chiave da evidenziare
-    const KEY_FILES = [
-      'DM_17_01_2018.pdf',      // NTC 2018
-      'C_21_01_2019_n7.pdf',    // Circolare 2019
-      'DM_14_01_2008.pdf',      // NTC 2008
-      'C_02_02_2009_n617.pdf',  // Circolare 617/2009
-      'OPCM_02_10_2003_n3316.pdf',
-      'OPCM_23_01_2004_n3333.pdf',
-      'L_02_02_1974_n64.pdf',   // Legge 64/1974
-    ];
-
     let ALL_DATA = [];
     let filtered = [];
+    // Cache dei capitoli già caricati (key = filename)
+    const capCache = {};
 
     // === LOAD ===
     async function loadData() {
@@ -371,49 +565,35 @@
         const resp = await fetch('norme.json');
         if (!resp.ok) throw new Error('HTTP ' + resp.status);
         ALL_DATA = await resp.json();
-        // Ordina per anno crescente
         ALL_DATA.sort((a, b) => (parseInt(a.anno) || 9999) - (parseInt(b.anno) || 9999));
         document.getElementById('stat-total').textContent = ALL_DATA.length;
         populateFilters();
         applyFilters();
       } catch (e) {
         document.getElementById('grid').innerHTML =
-          '<div class="empty"><div class="icon">⚠️</div><p>Errore caricamento dati: ' + e.message + '</p>' +
-          '<p style="margin-top:8px;font-size:0.85rem">Se stai aprendo il file localmente, usa un server HTTP (fetch bloccato da file://).</p></div>';
+          '<div class="empty"><div class="icon">⚠️</div><p>Errore caricamento dati: ' + e.message + '</p></div>';
       }
     }
 
-    // === FILTERS POPULATION ===
     function populateFilters() {
       const anni = [...new Set(ALL_DATA.map(d => d.anno).filter(Boolean))].sort();
       const tipi = [...new Set(ALL_DATA.map(d => d.tipo).filter(Boolean))].sort();
       const selAnno = document.getElementById('filter-anno');
       const selTipo = document.getElementById('filter-tipo');
-      anni.forEach(a => {
-        const o = document.createElement('option');
-        o.value = a; o.textContent = a;
-        selAnno.appendChild(o);
-      });
-      // Map tipo codice → label leggibile
+      anni.forEach(a => { const o = document.createElement('option'); o.value = a; o.textContent = a; selAnno.appendChild(o); });
       const TIPO_LABEL = {
         'C': 'Circolare', 'CM': 'Circ. Ministeriale', 'CLLPP': 'C.M. LL.PP.',
         'D': 'Decreto', 'DM': 'D.M.', 'DMLLPP': 'D.M. LL.PP.',
         'L': 'Legge', 'LR': 'Legge Regionale', 'DLL': 'D.L.L.',
         'RD': 'R.D.', 'RDL': 'R.D.L.', 'OPCM': 'O.P.C.M.',
       };
-      tipi.forEach(t => {
-        const o = document.createElement('option');
-        o.value = t; o.textContent = TIPO_LABEL[t] || t;
-        selTipo.appendChild(o);
-      });
+      tipi.forEach(t => { const o = document.createElement('option'); o.value = t; o.textContent = TIPO_LABEL[t] || t; selTipo.appendChild(o); });
     }
 
-    // === APPLY FILTERS ===
     function applyFilters() {
       const q = document.getElementById('search').value.toLowerCase().trim();
       const anno = document.getElementById('filter-anno').value;
       const tipo = document.getElementById('filter-tipo').value;
-
       filtered = ALL_DATA.filter(d => {
         if (anno && d.anno !== anno) return false;
         if (tipo && d.tipo !== tipo) return false;
@@ -423,39 +603,116 @@
         }
         return true;
       });
-
       render();
     }
 
-    // === RENDER ===
     function render() {
       const grid = document.getElementById('grid');
-      const counter = document.getElementById('result-count');
-      counter.textContent = filtered.length;
+      document.getElementById('result-count').textContent = filtered.length;
 
       if (filtered.length === 0) {
-        grid.innerHTML = '<div class="empty"><div class="icon">🔍</div><p>Nessun documento trovato con i filtri selezionati.</p></div>';
+        grid.innerHTML = '<div class="empty"><div class="icon">🔍</div><p>Nessun documento trovato.</p></div>';
         return;
       }
 
       grid.innerHTML = filtered.map(d => {
-        const isKey = KEY_FILES.includes(decodeURIComponent(d.url.split('/').pop()));
-        const cls = isKey ? 'card highlight' : 'card';
+        const isKey = !!d.chiave;
+        const cls = isKey ? 'card chiave' : 'card';
         const tipoLabel = prettyTipo(d.tipo);
         const safeTitolo = escapeHtml(d.titolo || d.estremi);
         const safeEstremi = escapeHtml(d.estremi);
         const fname = decodeURIComponent(d.url.split('/').pop());
+        const keyBtn = isKey
+          ? `<button class="btn-link secondary" onclick="toggleCapitoli('${fname}')">📖 Vedi capitoli</button>`
+          : '';
         return `
-          <article class="${cls}">
-            <span class="year-badge">${d.anno || '—'}</span>
-            <span class="tipo">${tipoLabel}${isKey ? ' · ⭐ chiave' : ''}</span>
+          <article class="${cls}" data-fname="${fname}">
+            <div class="top-row">
+              <span class="year-badge">${d.anno || '—'}</span>
+              ${isKey ? '<span class="star-badge">⭐ Chiave</span>' : ''}
+            </div>
+            <span class="tipo">${tipoLabel}</span>
             <div class="titolo">${safeTitolo}</div>
             <div class="estremi">${safeEstremi}</div>
-            <div class="link">
-              <a href="${d.url}" target="_blank" rel="noopener">📄 Apri PDF · ${fname}</a>
+            <div class="actions">
+              <a class="btn-link" href="${viewerUrl(d.url)}" target="_blank" rel="noopener" title="Visualizza nel browser">👁️ Visualizza</a>
+              <a class="btn-link secondary" href="${d.url}" target="_blank" rel="noopener" title="Scarica il PDF">⬇️ PDF</a>
+              ${keyBtn}
             </div>
           </article>`;
       }).join('');
+    }
+
+    async function toggleCapitoli(fname) {
+      // Se già aperto, chiudi
+      const existing = document.getElementById('cap-panel');
+      if (existing) {
+        existing.remove();
+        const doc = ALL_DATA.find(d => decodeURIComponent(d.url.split('/').pop()) === fname);
+        if (existing.dataset.fname !== fname) {
+          // apri quello nuovo
+          await openCapitoli(fname, doc);
+        }
+        return;
+      }
+      const doc = ALL_DATA.find(d => decodeURIComponent(d.url.split('/').pop()) === fname);
+      if (!doc) return;
+      await openCapitoli(fname, doc);
+    }
+
+    async function openCapitoli(fname, doc) {
+      const grid = document.getElementById('grid');
+      // Crea panel in cima alla grid
+      const panel = document.createElement('div');
+      panel.className = 'capitoli-panel';
+      panel.id = 'cap-panel';
+      panel.dataset.fname = fname;
+      panel.innerHTML = `
+        <div class="panel-header">
+          <span class="panel-title">📖 Capitoli — ${escapeHtml(doc.titolo || doc.estremi)}</span>
+          <button class="panel-close" onclick="document.getElementById('cap-panel').remove()">✕</button>
+        </div>
+        <div class="capitoli-grid"><div class="cap-loading">⏳ Caricamento capitoli…</div></div>
+      `;
+      grid.insertBefore(panel, grid.firstChild);
+
+      // Fetch capitoli.json
+      let caps;
+      if (capCache[fname]) {
+        caps = capCache[fname];
+      } else {
+        try {
+          const r = await fetch(doc.capitoli_url);
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          const data = await r.json();
+          caps = data.capitoli;
+          capCache[fname] = caps;
+        } catch (e) {
+          panel.querySelector('.capitoli-grid').innerHTML =
+            `<div class="cap-loading">⚠️ Errore caricamento: ${e.message}</div>`;
+          return;
+        }
+      }
+
+      // Render lista capitoli
+      const base = doc.capitoli_base;
+      const html = caps.map(c => {
+        const url = base + c.file.replace(' ', '%20');
+        return `
+          <a class="cap-link" href="${viewerUrl(url)}" target="_blank" rel="noopener" title="Visualizza nel browser">
+            <span class="num">${c.numero}</span>
+            <span class="title">${escapeHtml(c.titolo)}</span>
+            <span class="pag">${c.pagine} pag</span>
+          </a>`;
+      }).join('');
+      // Aggiungi link al PDF intero in fondo
+      const completoHtml = `
+        <a class="cap-link" href="${viewerUrl(doc.url)}" target="_blank" rel="noopener" style="background:var(--brand-50);border-color:var(--brand-400);" title="Visualizza nel browser">
+          <span class="num" style="background:var(--brand-700);">∞</span>
+          <span class="title">PDF completo</span>
+          <span class="pag">tutto</span>
+        </a>`;
+      panel.querySelector('.capitoli-grid').innerHTML = html + completoHtml;
     }
 
     function prettyTipo(t) {
@@ -464,8 +721,15 @@
         'D': 'Decreto', 'DM': 'D.M. (Decreto Ministeriale)', 'DMLLPP': 'D.M. LL.PP.',
         'L': 'Legge', 'LR': 'Legge Regionale', 'DLL': 'Decreto Legge Luogotenenziale',
         'RD': 'Regio Decreto', 'RDL': 'Regio Decreto Legge', 'OPCM': 'Ordinanza PCM',
+        'ANSFISA': 'Linee Guida ANSFISA',
       };
       return map[t] || t;
+    }
+
+    // URL per visualizzare il PDF inline (Google Docs Viewer funziona con URL pubblici).
+    // raw.githubusercontent.com forza il download; il viewer lo mostra nel browser.
+    function viewerUrl(pdfUrl) {
+      return 'https://docs.google.com/viewer?url=' + encodeURIComponent(pdfUrl) + '&embedded=true';
     }
 
     function escapeHtml(s) {
@@ -474,7 +738,6 @@
         .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
     }
 
-    // === EVENTS ===
     document.getElementById('search').addEventListener('input', applyFilters);
     document.getElementById('filter-anno').addEventListener('change', applyFilters);
     document.getElementById('filter-tipo').addEventListener('change', applyFilters);
@@ -485,7 +748,6 @@
       applyFilters();
     });
 
-    // === START ===
     loadData();
   </script>
 </body>

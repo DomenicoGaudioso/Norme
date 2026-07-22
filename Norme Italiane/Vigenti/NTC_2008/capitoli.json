@@ -1,0 +1,116 @@
+{
+  "documento": "NTC_2008",
+  "pdf_originale": "DM_14_01_2008.pdf",
+  "pagine_totali": 654,
+  "strategia": "TOC nativo",
+  "capitoli": [
+    {
+      "numero": 1,
+      "titolo": "1 - Oggetto",
+      "file": "01_Oggetto.pdf",
+      "pagine": 1,
+      "pag_inizio": 10,
+      "pag_fine": 10,
+      "dimensione_kb": 4
+    },
+    {
+      "numero": 2,
+      "titolo": "2 - Sicurezza e prestazioni attese",
+      "file": "02_Sicurezza_e_prestazioni_attese.pdf",
+      "pagine": 9,
+      "pag_inizio": 11,
+      "pag_fine": 19,
+      "dimensione_kb": 78
+    },
+    {
+      "numero": 3,
+      "titolo": "3 - Azioni sulle costruzioni",
+      "file": "03_Azioni_sulle_costruzioni.pdf",
+      "pagine": 36,
+      "pag_inizio": 20,
+      "pag_fine": 55,
+      "dimensione_kb": 525
+    },
+    {
+      "numero": 4,
+      "titolo": "4 - Costruzioni civili e industriali",
+      "file": "04_Costruzioni_civili_e_industriali.pdf",
+      "pagine": 99,
+      "pag_inizio": 56,
+      "pag_fine": 154,
+      "dimensione_kb": 1033
+    },
+    {
+      "numero": 5,
+      "titolo": "5 - Ponti",
+      "file": "05_Ponti.pdf",
+      "pagine": 44,
+      "pag_inizio": 155,
+      "pag_fine": 198,
+      "dimensione_kb": 699
+    },
+    {
+      "numero": 6,
+      "titolo": "6 - Progettazione geotecnica",
+      "file": "06_Progettazione_geotecnica.pdf",
+      "pagine": 36,
+      "pag_inizio": 199,
+      "pag_fine": 234,
+      "dimensione_kb": 241
+    },
+    {
+      "numero": 7,
+      "titolo": "7 - Progettazione per azioni sismiche",
+      "file": "07_Progettazione_per_azioni_sismiche.pdf",
+      "pagine": 101,
+      "pag_inizio": 235,
+      "pag_fine": 335,
+      "dimensione_kb": 836
+    },
+    {
+      "numero": 8,
+      "titolo": "8 - Costruzioni esistenti",
+      "file": "08_Costruzioni_esistenti.pdf",
+      "pagine": 9,
+      "pag_inizio": 336,
+      "pag_fine": 344,
+      "dimensione_kb": 62
+    },
+    {
+      "numero": 9,
+      "titolo": "9 - Collaudo statico",
+      "file": "09_Collaudo_statico.pdf",
+      "pagine": 3,
+      "pag_inizio": 345,
+      "pag_fine": 347,
+      "dimensione_kb": 18
+    },
+    {
+      "numero": 10,
+      "titolo": "10 - Redazione dei progetti strutturali esecutivi e delle relazioni di calcolo",
+      "file": "10_Redazione_dei_progetti_strutturali_esecutivi_e_delle_relazio.pdf",
+      "pagine": 3,
+      "pag_inizio": 348,
+      "pag_fine": 350,
+      "dimensione_kb": 21
+    },
+    {
+      "numero": 11,
+      "titolo": "11 - Materiali e prodotti per uso strutturale",
+      "file": "11_Materiali_e_prodotti_per_uso_strutturale.pdf",
+      "pagine": 86,
+      "pag_inizio": 351,
+      "pag_fine": 436,
+      "dimensione_kb": 647
+    },
+    {
+      "numero": 12,
+      "titolo": "12 - Riferimenti tecnici",
+      "file": "12_Riferimenti_tecnici.pdf",
+      "pagine": 218,
+      "pag_inizio": 437,
+      "pag_fine": 654,
+      "dimensione_kb": 1996
+    }
+  ]
+}

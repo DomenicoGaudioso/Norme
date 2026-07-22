@@ -1,0 +1,80 @@
+{
+  "documento": "ANSFISA_LG_Ponti",
+  "pdf_originale": "ANSFISA/IstrOperative_LG_Ponti_ANSFISA_2025-08-04.pdf",
+  "pagine_totali": 140,
+  "strategia": "confini manuali",
+  "capitoli": [
+    {
+      "numero": 1,
+      "titolo": "Sezione 1 - Introduzione",
+      "file": "01_Introduzione.pdf",
+      "pagine": 8,
+      "pag_inizio": 10,
+      "pag_fine": 17,
+      "dimensione_kb": 605
+    },
+    {
+      "numero": 2,
+      "titolo": "Sezione 2 - Livello 0 - Censimento",
+      "file": "02_Livello_0_-_Censimento.pdf",
+      "pagine": 3,
+      "pag_inizio": 18,
+      "pag_fine": 20,
+      "dimensione_kb": 366
+    },
+    {
+      "numero": 3,
+      "titolo": "Sezione 3 - Livello 1 - Ispezioni visive e schede difettosità",
+      "file": "03_Livello_1_-_Ispezioni_visive_e_schede_difettosita.pdf",
+      "pagine": 9,
+      "pag_inizio": 21,
+      "pag_fine": 29,
+      "dimensione_kb": 597
+    },
+    {
+      "numero": 4,
+      "titolo": "Sezione 4 - Livello 2 - Classi di attenzione",
+      "file": "04_Livello_2_-_Classi_di_attenzione.pdf",
+      "pagine": 59,
+      "pag_inizio": 30,
+      "pag_fine": 88,
+      "dimensione_kb": 1958
+    },
+    {
+      "numero": 5,
+      "titolo": "Sezione 5 - Livello 3 - Valutazione preliminare dell'opera",
+      "file": "05_Livello_3_-_Valutazione_preliminare_dellopera.pdf",
+      "pagine": 5,
+      "pag_inizio": 89,
+      "pag_fine": 93,
+      "dimensione_kb": 567
+    },
+    {
+      "numero": 6,
+      "titolo": "Sezione 6 - Livello 4 - Verifica accurata della sicurezza",
+      "file": "06_Livello_4_-_Verifica_accurata_della_sicurezza.pdf",
+      "pagine": 25,
+      "pag_inizio": 94,
+      "pag_fine": 118,
+      "dimensione_kb": 778
+    },
+    {
+      "numero": 7,
+      "titolo": "Sezione 7 - Sistema di sorveglianza e monitoraggio",
+      "file": "07_Sistema_di_sorveglianza_e_monitoraggio.pdf",
+      "pagine": 21,
+      "pag_inizio": 119,
+      "pag_fine": 139,
+      "dimensione_kb": 927
+    },
+    {
+      "numero": 8,
+      "titolo": "Sezione 8 - Bibliografia e riferimenti",
+      "file": "08_Bibliografia_e_riferimenti.pdf",
+      "pagine": 1,
+      "pag_inizio": 140,
+      "pag_fine": 140,
+      "dimensione_kb": 355
+    }
+  ]
+}

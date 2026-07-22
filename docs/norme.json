@@ -71,16 +71,16 @@
   },
   {
     "anno": "1927",
-    "estremi": "R.D.L. 13 marzo 1927 n.431 (G.U.08 aprile 1927 n.82)",
-    "titolo": "Norme tecniche ed igieniche per le riparazioni, ricostruzioni e nuove costruzioni degli edifici pubblici e privati nei comuni o frazioni di comune dichiarati zone sismiche.",
-    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/RDL_13_03_1927_n431.pdf",
+    "estremi": "R.D.L. 04 Settembre 1927 n.1981 (G.U.11 novembre 1927 n.261)",
+    "titolo": "Norme per l'accettazione degli agglomerati idraulici e l'esecuzione delle opere in conglomerato cementizio semplice ed armato.",
+    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/RDL_1927_09_04_n1981.pdf",
     "tipo": "RDL"
   },
   {
     "anno": "1927",
-    "estremi": "R.D.L. 04 Settembre 1927 n.1981 (G.U.11 novembre 1927 n.261)",
-    "titolo": "Norme per l'accettazione degli agglomerati idraulici e l'esecuzione delle opere in conglomerato cementizio semplice ed armato.",
-    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/RDL_1927_09_04_n1981.pdf",
+    "estremi": "R.D.L. 13 marzo 1927 n.431 (G.U.08 aprile 1927 n.82)",
+    "titolo": "Norme tecniche ed igieniche per le riparazioni, ricostruzioni e nuove costruzioni degli edifici pubblici e privati nei comuni o frazioni di comune dichiarati zone sismiche.",
+    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/RDL_13_03_1927_n431.pdf",
     "tipo": "RDL"
   },
   {
@@ -113,16 +113,16 @@
   },
   {
     "anno": "1939",
-    "estremi": "R.D.L. 16 novembre 1939 n.2228 (G.U. 18 aprile 1940 n.92)",
-    "titolo": "Norme per l'accettazione dei leganti idraulici.",
-    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/RDL_16_11_1939_n2228.pdf",
+    "estremi": "R.D.L. 16 novembre 1939 n. 2229 (G.U. 18 aprile 1940 n.92)",
+    "titolo": "Norme per l'esecuzione delle opere in conclomerato cementizio semplice e armato.",
+    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/RDL_16_11_1939_n2229.pdf",
     "tipo": "RDL"
   },
   {
     "anno": "1939",
-    "estremi": "R.D.L. 16 novembre 1939 n. 2229 (G.U. 18 aprile 1940 n.92)",
-    "titolo": "Norme per l'esecuzione delle opere in conclomerato cementizio semplice e armato.",
-    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/RDL_16_11_1939_n2229.pdf",
+    "estremi": "R.D.L. 16 novembre 1939 n.2228 (G.U. 18 aprile 1940 n.92)",
+    "titolo": "Norme per l'accettazione dei leganti idraulici.",
+    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/RDL_16_11_1939_n2228.pdf",
     "tipo": "RDL"
   },
   {
@@ -344,6 +344,13 @@
   },
   {
     "anno": "1981",
+    "estremi": "D. 03 giugno 1981 (G.U. 30 giugno 1981 n.177)",
+    "titolo": "Aggiornamento delle norme tecniche per le costruzioni in zone sismiche.",
+    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/D_03_06_1981.pdf",
+    "tipo": "D"
+  },
+  {
+    "anno": "1981",
     "estremi": "D.M. 02 luglio 1981 n.593 (G.U. 21 luglio 1981 n.198)",
     "titolo": "Normativa per le riparazioni ed il rafforzamento degli edifici danneggiati dal sisma nelle regioni Basilicata, Campania e Puglia.",
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_02_07_1981_n593.pdf",
@@ -362,13 +369,6 @@
     "titolo": "Norme tecniche riguardanti le indagini sui terreni e sulle rocce, la stabilità dei pendii naturali e delle scarpate, i criteri generali e le prescrizioni per la progettazione, l'esecuzione e il collaudo delle opere di sostegno delle terre e delle opere di fondazione.",
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_21_01_1981.pdf",
     "tipo": "DM"
-  },
-  {
-    "anno": "1981",
-    "estremi": "D. 03 giugno 1981 (G.U. 30 giugno 1981 n.177)",
-    "titolo": "Aggiornamento delle norme tecniche per le costruzioni in zone sismiche.",
-    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/D_03_06_1981.pdf",
-    "tipo": "D"
   },
   {
     "anno": "1981",
@@ -463,6 +463,13 @@
   },
   {
     "anno": "1987",
+    "estremi": "D.M. 20 novembre 1987 (G.U. 05 dicembre 1987 n.285)",
+    "titolo": "Norme tecniche per progettazione, esecuzione e collaudo degli edifici in muratura e per il loro consolidamento.",
+    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_20_11_1987.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1987",
     "estremi": "D.M. 3 dicembre 1987 (G.U. 07 maggio 1988 n.106)",
     "titolo": "Norme tecniche per progettazione, esecuzione e collaudo delle costruzioni prefabbricate.",
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_03_12_1987.pdf",
@@ -473,13 +480,6 @@
     "estremi": "D.M. 9 gennaio 1987 n.58 (G.U. 19 giugno 1987 n.141)",
     "titolo": "Norme tecniche per la progettazione, esecuzione e collaudo degli edifici in muratura e per il loro consolidamento.",
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_09_01_1987_n58.pdf",
-    "tipo": "DM"
-  },
-  {
-    "anno": "1987",
-    "estremi": "D.M. 20 novembre 1987 (G.U. 05 dicembre 1987 n.285)",
-    "titolo": "Norme tecniche per progettazione, esecuzione e collaudo degli edifici in muratura e per il loro consolidamento.",
-    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_20_11_1987.pdf",
     "tipo": "DM"
   },
   {
@@ -540,13 +540,6 @@
   },
   {
     "anno": "1996",
-    "estremi": "C.M. 4 luglio 1996 n.156 (G.U. 16 settembre 1996 n.217)",
-    "titolo": "Norme tecniche relative ai criteri generali di verifica di sicurezza delle costruzioni e dei carichi e sovraccarichi.",
-    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/CM_04_07_1996_n156.pdf",
-    "tipo": "CM"
-  },
-  {
-    "anno": "1996",
     "estremi": "C.M. 15 ottobre 1996 n.252 (S.O.G.U. 26 novembre 1996 n.277)",
     "titolo": "Istruzioni per l'applicazione delle \"Norme tecniche per il calcolo, l'esecuzione ed il collaudo delle opere in cemento armato normale e precompresso e per le strutture metalliche\" di cui al D.M. del 9 Gennaio 1996.",
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/CM_15_10_1996_n252.pdf",
@@ -554,9 +547,23 @@
   },
   {
     "anno": "1996",
+    "estremi": "C.M. 4 luglio 1996 n.156 (G.U. 16 settembre 1996 n.217)",
+    "titolo": "Norme tecniche relative ai criteri generali di verifica di sicurezza delle costruzioni e dei carichi e sovraccarichi.",
+    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/CM_04_07_1996_n156.pdf",
+    "tipo": "CM"
+  },
+  {
+    "anno": "1996",
     "estremi": "D.M. 04 marzo 1996 (G.U. 19 marzo 1996 n.66)",
     "titolo": "Proroga del termine di entrata in vigore delle norme tecniche per le costruzioni in zone sismiche, di cui al DM 16-01-1996.",
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_04_03_1996.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1996",
+    "estremi": "D.M. 16 gennaio 1996 (G.U. 05 febbraio 1996 n.29)",
+    "titolo": "Norme tecniche relative ai criteri generali di verifica di sicurezza delle costruzioni e dei carichi e sovraccarichi.",
+    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_16_01_1996.pdf",
     "tipo": "DM"
   },
   {
@@ -571,13 +578,6 @@
     "estremi": "D.M. 9 gennaio 1996 (G.U. 05 febbraio 1996 n.29)",
     "titolo": "Norme tecniche per il calcolo, l'esecuzione ed il collaudo delle strutture in c.a. normale e precompresso e per le strutture metalliche. (versione editata/ridevida)",
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_09_01_1996_edit.pdf",
-    "tipo": "DM"
-  },
-  {
-    "anno": "1996",
-    "estremi": "D.M. 16 gennaio 1996 (G.U. 05 febbraio 1996 n.29)",
-    "titolo": "Norme tecniche relative ai criteri generali di verifica di sicurezza delle costruzioni e dei carichi e sovraccarichi.",
-    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_16_01_1996.pdf",
     "tipo": "DM"
   },
   {
@@ -627,20 +627,23 @@
     "estremi": "D.M. 14 gennaio 2008 (G.U. 04 febbraio 2008 n.29)",
     "titolo": "Norme tecniche per le costruzioni.",
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_14_01_2008.pdf",
-    "tipo": "DM"
-  },
-  {
-    "anno": "2009",
-    "estremi": "Circolare 2 febbraio 2009 n. 617 (G.U. n. 47 del 26 febbraio 2009)",
-    "titolo": "Istruzioni per l'Applicazione Nuove Norme Tecniche Costruzioni di cui al Decreto Ministeriale 14 gennaio 2008.",
-    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/C_02_02_2009_n617.pdf",
-    "tipo": "C"
+    "tipo": "DM",
+    "capitoli_url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/Vigenti/NTC_2008/capitoli.json",
+    "capitoli_base": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/Vigenti/NTC_2008/",
+    "chiave": true
   },
   {
     "anno": "2009",
     "estremi": "Circolare 11 dicembre 2009 n.111209 (G.U. 22 dicembre 2009 n. 297)",
     "titolo": "Entrata in vigore delle norme tecniche per le costruzioni di cui al decreto ministeriale 14 gennaio 2008.",
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/C_11_12_2009_n111209.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "2009",
+    "estremi": "Circolare 2 febbraio 2009 n. 617 (G.U. n. 47 del 26 febbraio 2009)",
+    "titolo": "Istruzioni per l'Applicazione Nuove Norme Tecniche Costruzioni di cui al Decreto Ministeriale 14 gennaio 2008.",
+    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/C_02_02_2009_n617.pdf",
     "tipo": "C"
   },
   {
@@ -662,13 +665,29 @@
     "estremi": "D.M. 17 gennaio 2018 (G.U. 20 febbraio 2018)",
     "titolo": "Norme tecniche per le costruzioni",
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/DM_17_01_2018.pdf",
-    "tipo": "DM"
+    "tipo": "DM",
+    "capitoli_url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/Vigenti/NTC_2018/capitoli.json",
+    "capitoli_base": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/Vigenti/NTC_2018/",
+    "chiave": true
   },
   {
     "anno": "2019",
     "estremi": "Circolare 21 gennaio 2019 n.7 (G.U. 11 febbraio 2019 n. 35)",
     "titolo": "Istruzioni per l'applicazione dell'Aggiornamento delle \"Norme tecniche per le costruzioni\" di cui al decreto ministeriale 17 gennaio 2018",
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/C_21_01_2019_n7.pdf",
-    "tipo": "C"
+    "tipo": "C",
+    "capitoli_url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/Vigenti/Circolare_2019/capitoli.json",
+    "capitoli_base": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/Vigenti/Circolare_2019/",
+    "chiave": true
+  },
+  {
+    "anno": "2025",
+    "estremi": "Istruzioni Operative LG Ponti - ANSFISA rev. 04/08/2025",
+    "titolo": "Istruzioni Operative per l'applicazione delle Linee Guida per la classificazione e gestione del rischio, la valutazione della sicurezza ed il monitoraggio dei ponti esistenti",
+    "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/ANSFISA/IstrOperative_LG_Ponti_ANSFISA_2025-08-04.pdf",
+    "tipo": "ANSFISA",
+    "capitoli_url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/Vigenti/ANSFISA_LG_Ponti/capitoli.json",
+    "capitoli_base": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme Italiane/Vigenti/ANSFISA_LG_Ponti/",
+    "chiave": true
   }
 ]

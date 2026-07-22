@@ -2,7 +2,7 @@
 
 Raccolta cronologica dei provvedimenti normativi italiani in materia di costruzioni, cemento armato e sismica, dal **Regio Decreto 16 settembre 1906 n.511** fino all'**Aggiornamento delle Norme Tecniche per le Costruzioni (D.M. 17 gennaio 2018)** e alla relativa **Circolare applicativa n.7 del 21 gennaio 2019**.
 
-Sono presenti **95 documenti** in formato PDF, tutti atti normativi pubblicati in Gazzetta Ufficiale della Repubblica Italiana (leggi, decreti, circolari ministeriali, ordinanze): materiale di pubblico dominio, liberamente consultabile.
+Sono presenti **95 documenti** in formato PDF (più una versione editata del D.M. 9/01/1996).
 
 ## Indice cronologico
 
@@ -115,12 +115,17 @@ I riferimenti normativi attualmente vigenti:
 - **Circolare 2 febbraio 2009 n.617** — Istruzioni per l'applicazione delle NTC 2008.
 - **OPCM 3274/2003** (e modifiche OPCM 3316/2003 e OPCM 3333/2004) — Classificazione sismica.
 
-## Fonte
+## Split per capitoli (documenti chiave)
 
-I documenti sono scaricati dal portale [staticaesismica.it](https://www.staticaesismica.it/staticaesismica_normativa.html), che dichiara: *«Il materiale pubblicato in questa pagina può essere scaricato e utilizzato liberamente senza restrizione alcuna»*. Si tratta di atti normativi italiani pubblicati in Gazzetta Ufficiale, di pubblico dominio.
+I documenti più consultati sono suddivisi per capitolo nella sottocartella [`Vigenti/`](Vigenti/):
+
+- [`Vigenti/NTC_2018/`](Vigenti/NTC_2018/) — D.M. 17/01/2018 (12 capitoli)
+- [`Vigenti/Circolare_2019/`](Vigenti/Circolare_2019/) — Circolare 21/01/2019 n.7 (11 capitoli)
+- [`Vigenti/NTC_2008/`](Vigenti/NTC_2008/) — D.M. 14/01/2008 (12 capitoli)
+
+Ogni cartella contiene il PDF intero (`00_Completo.pdf`) + un PDF per capitolo + `capitoli.json`.
 
 ## Note
 
 - La raccolta è completa dal 1906 al 2019.
-- Per il **D.M. 28 febbraio 2017** (Sisma Bonus) il PDF originale sul sito sorgente restituisce HTTP 404; segnalare al webmaster del portale.
 - I nomi file seguono lo schema `TIPO_GG_MM_AAAA_nN.pdf` (es. `DM_17_01_2018.pdf`).

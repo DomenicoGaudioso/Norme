@@ -1,13 +1,8 @@
 # 📚 Norme — Archivio della normativa tecnica italiana per le costruzioni
 
-Archivio cronologico della normativa tecnica italiana per le costruzioni: dalle
-prime disposizioni post-terremoto di Messina del 1908 (R.D. 16 settembre 1906
-n.511) fino all'Aggiornamento delle **Norme Tecniche per le Costruzioni
-(D.M. 17 gennaio 2018)** e alla **Circolare applicativa n.7/2019**.
+Archivio cronologico della normativa tecnica italiana per le costruzioni: dalle prime disposizioni post-terremoto di Messina del 1908 (R.D. 16 settembre 1906 n.511) fino all'**Aggiornamento delle Norme Tecniche per le Costruzioni (D.M. 17 gennaio 2018)** e alla **Circolare applicativa n.7/2019**.
 
-L'archivio ha finalità **consultativa e documentale**: ricostruisce oltre
-**110 anni di storia normativa** in un unico posto consultabile, ricercabile e
-versionato.
+L'archivio ha finalità consultativa e documentale: ricostruisce oltre **110 anni di storia normativa** in un unico posto consultabile, ricercabile e versionato.
 
 ---
 
@@ -16,6 +11,7 @@ versionato.
 ```
 Norme/
 ├── Norme Italiane/        ← Storia della normativa tecnica italiana (1906–2019)
+│   └── Vigenti/           ← Split per capitoli dei documenti chiave (NTC, Circolare)
 ├── CNR/                   ← Documenti Tecnici CNR-DT (FRP, legno, FRCM, sismica)
 ├── Linee Guida LL.PP/     ← Linee guida del Consiglio Superiore LL.PP.
 ├── Quaderni ANAS/         ← Quaderni tecnici ANAS per ponti e infrastrutture
@@ -24,19 +20,16 @@ Norme/
 
 | Cartella | Documenti | Stato |
 |----------|-----------|-------|
-| [Norme Italiane/](Norme%20Italiane/) | 95 PDF (1906–2019) | ✅ Popolata |
-| [CNR/](CNR/) | CNR-DT 200/206/207/212/214/215 | 🚧 In preparazione |
-| [Linee Guida LL.PP/](Linee%20Guida%20LL.PP/) | Linee guida CSLLPP (ponti, sismica, muratura) | 🚧 In preparazione |
-| [Quaderni ANAS/](Quaderni%20ANAS/) | Quaderni ANAS, capitolati, linee guida ponti | 🚧 In preparazione |
+| [Norme Italiane/](Norme%20Italiane/) | 96 PDF (1906–2019) + split capitoli | ✅ Popolata |
+| [CNR/](CNR/) | CNR-DT 200/206/207/212/214/215 | 🚧 Cartella riservata |
+| [Linee Guida LL.PP/](Linee%20Guida%20LL.PP/) | Linee guida CSLLPP (ponti, sismica, muratura) | 🚧 Cartella riservata |
+| [Quaderni ANAS/](Quaderni%20ANAS/) | Quaderni ANAS, capitolati, linee guida ponti | 🚧 Cartella riservata |
 
 ---
 
-## 🇮🇹 Norme Italiane — highlights
+## 🇮🇹 Norme Italiani — highlights
 
-La cartella [`Norme Italiane/`](Norme%20Italiane/) raccoglie **95 PDF** di atti
-normativi italiani pubblicati in Gazzetta Ufficiale (pubblico dominio), scaricati
-dal portale [staticaesismica.it](https://www.staticaesismica.it/staticaesismica_normativa.html)
-che autorizza esplicitamente il download e l'utilizzo libero del materiale.
+La cartella [`Norme Italiane/`](Norme%20Italiane/) raccoglie **96 PDF** di provvedimenti normativi italiani (leggi, decreti, circolari ministeriali, ordinanze).
 
 ### Riferimenti normativi vigenti
 
@@ -65,9 +58,23 @@ Per l'elenco completo con estremi e descrizione: 👉 **[Norme Italiane/README.m
 
 ---
 
+## 📑 Split per capitoli (documenti chiave)
+
+I documenti più consultati sono suddivisi per capitolo, così da accedere direttamente alla sezione di interesse senza scaricare l'intero PDF:
+
+| Cartella | Documento | Capitoli |
+|----------|-----------|----------|
+| [`Vigenti/NTC_2018/`](Norme%20Italiane/Vigenti/NTC_2018/) | D.M. 17/01/2018 (NTC 2018) | 12 capitoli |
+| [`Vigenti/Circolare_2019/`](Norme%20Italiane/Vigenti/Circolare_2019/) | Circolare 21/01/2019 n.7 | 11 capitoli |
+| [`Vigenti/NTC_2008/`](Norme%20Italiane/Vigenti/NTC_2008/) | D.M. 14/01/2008 (NTC 2008) | 12 capitoli |
+
+Ogni cartella contiene un file `00_Completo.pdf` (PDF intero) + un PDF per ogni capitolo (`01_Oggetto.pdf`, `02_Sicurezza.pdf`, ...) + `capitoli.json` con l'indice.
+
+---
+
 ## 🌐 Sito consultabile
 
-Un sito statico navigabile con ricerca e filtri è pubblicato su **GitHub Pages**:
+Sito statico navigabile con ricerca, filtri e accesso diretto ai capitoli, pubblicato su **GitHub Pages**:
 
 > 🔗 **<https://domenicogaudioso.github.io/Norme/>**
 
@@ -75,38 +82,9 @@ Codice del sito nella cartella [`docs/`](docs/).
 
 ---
 
-## 📜 Note legali e copyright
-
-| Categoria | Stato | Note |
-|-----------|-------|------|
-| **Atti normativi in G.U.** (NTC, Circolari, OPCM, Leggi) | ✅ Pubblico dominio | Ridistribuibili liberamente |
-| **Documenti CNR-DT** | ⚠️ © CNR | Pubblicati gratuitamente ma con restrizioni di redistribuzione |
-| **Linee Guida CSLLPP in G.U.** | ✅ Pubblico dominio | Ridistribuibili |
-| **Linee Guida CSLLPP IST Press** | ⚠️ © IST Press | Solo link alla fonte |
-| **Quaderni ANAS** | ⚠️ © ANAS SpA | Pubblicati gratuitamente ma © riservato |
-| **Eurocodici UNI EN** | ❌ © CEN/UNI | Materiale commerciale a pagamento — non presente in questo archivio |
-
-La cartella `Norme Italiane/` contiene **solo** atti normativi italiani pubblicati
-in Gazzetta Ufficiale, di pubblico dominio. Per il materiale coperto da copyright
-(CNR, ANAS, IST Press) la cartella contiene indici con link alle fonti ufficiali.
-
----
-
 ## 🔄 Aggiornamenti
 
-Per segnalare errori, documenti mancanti o aggiornamenti, apri una
-[Issue](https://github.com/DomenicoGaudioso/Norme/issues) o una
-[Pull Request](https://github.com/DomenicoGaudioso/Norme/pulls).
-
----
-
-## 📖 Fonti
-
-- [staticaesismica.it](https://www.staticaesismica.it/staticaesismica_normativa.html) — raccolta storica curata dall'Ing. Braga Sergio.
-- [Gazzetta Ufficiale](https://www.gazzettaufficiale.it/) — fonte ufficiale degli atti normativi italiani.
-- [Consiglio Superiore LL.PP.](https://www.csllpp.it/) — Linee guida ufficiali.
-- [CNR — Documentazione](https://www.cnr.it/it/documentazione) — Documenti Tecnici CNR-DT.
-- [ANAS](https://www.stradeanas.it/) — Quaderni tecnici e capitolati.
+Per segnalare errori o documenti mancanti, apri una [Issue](https://github.com/DomenicoGaudioso/Norme/issues) o una [Pull Request](https://github.com/DomenicoGaudioso/Norme/pulls).
 
 ---
 
