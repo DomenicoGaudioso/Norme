@@ -474,118 +474,7 @@
       color: var(--gray-500);
     }
 
-    /* === PDF VIEWER OVERLAY === */
-    .pdf-overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      z-index: 9999;
-      background: rgba(17, 24, 39, 0.85);
-      backdrop-filter: blur(4px);
-    }
-    .pdf-overlay.active { display: flex; flex-direction: column; }
-    .pdf-toolbar {
-      background: var(--gray-900);
-      color: #fff;
-      padding: 12px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-    }
-    .pdf-toolbar .pdf-title {
-      font-size: 0.9rem;
-      font-weight: 600;
-      flex-grow: 1;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      max-width: 60%;
-    }
-    .pdf-controls {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-    .pdf-controls button {
-      background: rgba(255,255,255,0.1);
-      color: #fff;
-      border: 1px solid rgba(255,255,255,0.2);
-      padding: 6px 12px;
-      border-radius: 6px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      cursor: pointer;
-      font-family: inherit;
-      transition: background 0.15s;
-      min-width: 36px;
-    }
-    .pdf-controls button:hover:not(:disabled) { background: var(--brand-600); border-color: var(--brand-600); }
-    .pdf-controls button:disabled { opacity: 0.4; cursor: not-allowed; }
-    .pdf-controls .page-info {
-      color: rgba(255,255,255,0.8);
-      font-size: 0.85rem;
-      font-weight: 500;
-      padding: 0 8px;
-      min-width: 70px;
-      text-align: center;
-    }
-    .pdf-controls .zoom-info {
-      color: rgba(255,255,255,0.7);
-      font-size: 0.8rem;
-      min-width: 50px;
-      text-align: center;
-    }
-    .pdf-controls .btn-download {
-      background: var(--brand-600);
-      border-color: var(--brand-600);
-      text-decoration: none;
-      display: inline-block;
-    }
-    .pdf-controls .btn-download:hover { background: var(--brand-700); }
-    .pdf-controls .btn-close {
-      background: rgba(231, 76, 60, 0.2);
-      border-color: rgba(231, 76, 60, 0.4);
-    }
-    .pdf-controls .btn-close:hover { background: #e74c3c; border-color: #e74c3c; }
-    .pdf-body {
-      flex-grow: 1;
-      overflow: auto;
-      display: flex;
-      justify-content: center;
-      padding: 20px;
-    }
-    .pdf-body canvas {
-      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-      background: #fff;
-      max-width: 100%;
-    }
-    .pdf-loading {
-      color: #fff;
-      font-size: 1rem;
-      text-align: center;
-      margin: auto;
-      padding: 40px;
-    }
-    .pdf-loading .spinner {
-      display: inline-block;
-      width: 32px;
-      height: 32px;
-      border: 3px solid rgba(255,255,255,0.2);
-      border-top-color: var(--brand-400);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-      margin-right: 12px;
-      vertical-align: middle;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    @media (max-width: 760px) {
-      .pdf-toolbar { padding: 8px 12px; }
-      .pdf-toolbar .pdf-title { max-width: 100%; font-size: 0.8rem; }
-      .pdf-controls button { padding: 5px 8px; font-size: 0.8rem; min-width: 32px; }
-    }
+    /* === PDF VIEWER (rimosso: usiamo viewer nativo GitHub) === */
 
     /* === EMPTY STATE === */
     .empty {
@@ -701,7 +590,7 @@
           💡 I documenti contrassegnati <span class="star-badge">⭐ Chiave</span> hanno lo <strong>split per capitoli</strong>: clicca "Vedi capitoli" per accedere al singolo capitolo.
         </p>
         <p style="margin-top:6px;color:var(--gray-600);font-size:0.85rem;">
-          📖 <strong>👁️ Visualizza</strong> apre il PDF nel browser (anteprima); <strong>⬇️ PDF</strong> lo scarica.
+          📖 <strong>👁️ Visualizza</strong> apre il PDF nel viewer GitHub (veloce); <strong>⬇️ PDF</strong> lo scarica.
         </p>
       </div>
 
@@ -721,34 +610,6 @@
     <p>Archivio di documenti normativi italiani per le costruzioni.</p>
     <p style="margin-top:8px;"><a href="https://github.com/DomenicoGaudioso/Norme">GitHub Repository</a></p>
   </footer>
-
-  <!-- === OVERLAY PDF VIEWER (pdf.js) === -->
-  <div class="pdf-overlay" id="pdf-overlay">
-    <div class="pdf-toolbar">
-      <div class="pdf-title" id="pdf-title">Documento</div>
-      <div class="pdf-controls">
-        <button onclick="pdfPrev()" id="pdf-prev" title="Pagina precedente">‹</button>
-        <span class="page-info"><span id="pdf-page-num">0</span> / <span id="pdf-page-count">0</span></span>
-        <button onclick="pdfNext()" id="pdf-next" title="Pagina successiva">›</button>
-        <button onclick="pdfZoom(-0.25)" title="Zoom out">−</button>
-        <span class="zoom-info" id="pdf-zoom-info">100%</span>
-        <button onclick="pdfZoom(0.25)" title="Zoom in">+</button>
-        <a class="btn-download" id="pdf-download" href="#" target="_blank" rel="noopener" title="Scarica il PDF">⬇️</a>
-        <button class="btn-close" onclick="closePdfViewer()" title="Chiudi">✕</button>
-      </div>
-    </div>
-    <div class="pdf-body" id="pdf-body">
-      <div class="pdf-loading"><span class="spinner"></span>Caricamento PDF…</div>
-    </div>
-  </div>
-
-  <script type="module">
-    // Carica pdf.js dinamicamente (modulo ESM)
-    import * as pdfjsLib from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.mjs';
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.mjs';
-    window.pdfjsLib = pdfjsLib;
-    window.dispatchEvent(new Event('pdfjs-ready'));
-  </script>
 
   <script>
     let ALL_DATA = [];
@@ -889,8 +750,8 @@
             <div class="titolo">${safeTitolo}</div>
             <div class="estremi">${safeEstremi}</div>
             <div class="actions">
-              <button class="btn-link" onclick="openPdfViewer('${d.url}', '${escapeHtml(d.titolo || d.estremi).replace(/'/g, "\\'")}', '${d.url}')" title="Visualizza nel browser">👁️ Visualizza</button>
-              <a class="btn-link secondary" href="${d.url}" target="_blank" rel="noopener" title="Scarica il PDF">⬇️ PDF</a>
+              <a class="btn-link" href="${githubViewerUrl(d.url)}" target="_blank" rel="noopener" title="Visualizza nel viewer GitHub">👁️ Visualizza</a>
+              <a class="btn-link secondary" href="${d.url}" target="_blank" rel="noopener" title="Scarica il PDF raw">⬇️ PDF</a>
               ${keyBtn}
             </div>
           </article>`;
@@ -952,9 +813,8 @@
       const base = doc.capitoli_base;
       const html = caps.map(c => {
         const url = base + c.file.replace(' ', '%20');
-        const safeTitolo = escapeHtml(c.titolo).replace(/'/g, "\\'");
         return `
-          <a class="cap-link" href="${url}" onclick="event.preventDefault(); openPdfViewer('${url}', '${safeTitolo}', '${url}');" title="Visualizza nel browser">
+          <a class="cap-link" href="${githubViewerUrl(url)}" target="_blank" rel="noopener" title="Visualizza nel viewer GitHub">
             <span class="num">${c.numero}</span>
             <span class="title">${escapeHtml(c.titolo)}</span>
             <span class="pag">${c.pagine} pag</span>
@@ -962,7 +822,7 @@
       }).join('');
       // Aggiungi link al PDF intero in fondo
       const completoHtml = `
-        <a class="cap-link" href="${doc.url}" onclick="event.preventDefault(); openPdfViewer('${doc.url}', 'PDF completo', '${doc.url}');" style="background:var(--brand-50);border-color:var(--brand-400);" title="Visualizza nel browser">
+        <a class="cap-link" href="${githubViewerUrl(doc.url)}" target="_blank" rel="noopener" style="background:var(--brand-50);border-color:var(--brand-400);" title="Visualizza nel viewer GitHub">
           <span class="num" style="background:var(--brand-700);">∞</span>
           <span class="title">PDF completo</span>
           <span class="pag">tutto</span>
@@ -982,147 +842,15 @@
       return map[t] || t;
     }
 
-    // === PDF VIEWER (pdf.js) ===
-    // Stato del viewer
-    let pdfDoc = null;
-    let pdfCurrentPage = 1;
-    let pdfScale = 1.2;
-    let pdfRendering = false;
-    let pdfPendingPage = null;
-    let pdfjsReady = !!window.pdfjsLib;
-
-    // Attende che pdf.js sia caricato
-    function ensurePdfjs() {
-      if (pdfjsReady) return Promise.resolve();
-      return new Promise(resolve => {
-        window.addEventListener('pdfjs-ready', () => { pdfjsReady = true; resolve(); }, { once: true });
-      });
-    }
-
-    async function openPdfViewer(url, title, downloadUrl) {
-      const overlay = document.getElementById('pdf-overlay');
-      document.getElementById('pdf-title').textContent = title || 'Documento';
-      document.getElementById('pdf-download').href = downloadUrl || url;
-      document.getElementById('pdf-body').innerHTML =
-        '<div class="pdf-loading"><span class="spinner"></span>Caricamento PDF…</div>';
-      overlay.classList.add('active');
-      document.body.style.overflow = 'hidden';
-
-      // Genera URL jsDelivr come fallback (CDN con content-type corretto + cache)
-      const jsdelivrUrl = url.replace(
+    // Converte un URL raw GitHub nell'URL del viewer nativo GitHub.
+    // raw.githubusercontent.com/USER/REPO/main/PATH → github.com/USER/REPO/blob/main/PATH
+    // Il viewer GitHub è ottimizzato: streaming, paginazione veloce, cache.
+    function githubViewerUrl(rawUrl) {
+      return rawUrl.replace(
         'https://raw.githubusercontent.com/',
-        'https://cdn.jsdelivr.net/gh/'
-      ).replace('/main/', '@main/');
-
-      try {
-        await ensurePdfjs();
-        let pdfDoc_, lastErr;
-        // Prova prima jsDelivr (più affidabile per content-type e cache)
-        // poi fallback a raw GitHub
-        for (const tryUrl of [jsdelivrUrl, url]) {
-          try {
-            const loadingTask = window.pdfjsLib.getDocument({
-              url: tryUrl,
-              cMapUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/cmaps/',
-              cMapPacked: true,
-            });
-            pdfDoc_ = await loadingTask.promise;
-            break;
-          } catch (e) {
-            lastErr = e;
-          }
-        }
-        if (!pdfDoc_) throw lastErr;
-        pdfDoc = pdfDoc_;
-        pdfCurrentPage = 1;
-        pdfScale = 1.2;
-        document.getElementById('pdf-page-count').textContent = pdfDoc.numPages;
-        document.getElementById('pdf-body').innerHTML = '<canvas id="pdf-canvas"></canvas>';
-        await renderPdfPage(pdfCurrentPage);
-      } catch (e) {
-        document.getElementById('pdf-body').innerHTML =
-          `<div class="pdf-loading" style="color:#fecaca;">⚠️ Errore caricamento PDF: ${escapeHtml(e.message)}<br>` +
-          `<p style="margin-top:12px;font-size:0.9rem;">` +
-          `<a href="${downloadUrl || url}" target="_blank" rel="noopener" style="color:var(--brand-400);text-decoration:underline;">Scarica il PDF direttamente</a></p></div>`;
-      }
+        'https://github.com/'
+      ).replace('/main/', '/blob/main/');
     }
-
-    async function renderPdfPage(pageNum) {
-      if (pdfRendering) {
-        pdfPendingPage = pageNum;
-        return;
-      }
-      pdfRendering = true;
-      const canvas = document.getElementById('pdf-canvas');
-      if (!canvas) { pdfRendering = false; return; }
-      const ctx = canvas.getContext('2d');
-      try {
-        const page = await pdfDoc.getPage(pageNum);
-        const viewport = page.getViewport({ scale: pdfScale });
-        // Proporzioni device pixel ratio per nitidezza su retina
-        const dpr = window.devicePixelRatio || 1;
-        canvas.width = viewport.width * dpr;
-        canvas.height = viewport.height * dpr;
-        canvas.style.width = viewport.width + 'px';
-        canvas.style.height = viewport.height + 'px';
-        ctx.scale(dpr, dpr);
-        await page.render({ canvasContext: ctx, viewport }).promise;
-        document.getElementById('pdf-page-num').textContent = pageNum;
-        document.getElementById('pdf-zoom-info').textContent = Math.round(pdfScale / 1.2 * 100) + '%';
-        document.getElementById('pdf-prev').disabled = (pageNum <= 1);
-        document.getElementById('pdf-next').disabled = (pageNum >= pdfDoc.numPages);
-        // Scroll in alto
-        document.getElementById('pdf-body').scrollTop = 0;
-      } catch (e) {
-        console.error('Render page error:', e);
-      }
-      pdfRendering = false;
-      if (pdfPendingPage !== null) {
-        const next = pdfPendingPage;
-        pdfPendingPage = null;
-        renderPdfPage(next);
-      }
-    }
-
-    function pdfPrev() {
-      if (!pdfDoc || pdfCurrentPage <= 1) return;
-      pdfCurrentPage--;
-      renderPdfPage(pdfCurrentPage);
-    }
-
-    function pdfNext() {
-      if (!pdfDoc || pdfCurrentPage >= pdfDoc.numPages) return;
-      pdfCurrentPage++;
-      renderPdfPage(pdfCurrentPage);
-    }
-
-    function pdfZoom(delta) {
-      const newScale = Math.max(0.4, Math.min(3.0, pdfScale + delta));
-      if (newScale === pdfScale) return;
-      pdfScale = newScale;
-      renderPdfPage(pdfCurrentPage);
-    }
-
-    function closePdfViewer() {
-      document.getElementById('pdf-overlay').classList.remove('active');
-      document.body.style.overflow = '';
-      // Rilascia memoria
-      if (pdfDoc) {
-        try { pdfDoc.destroy(); } catch (e) {}
-        pdfDoc = null;
-      }
-    }
-
-    // Keyboard shortcuts quando overlay è attivo
-    document.addEventListener('keydown', (e) => {
-      const overlay = document.getElementById('pdf-overlay');
-      if (!overlay.classList.contains('active')) return;
-      if (e.key === 'Escape') closePdfViewer();
-      else if (e.key === 'ArrowLeft') pdfPrev();
-      else if (e.key === 'ArrowRight') pdfNext();
-      else if (e.key === '+' || e.key === '=') pdfZoom(0.25);
-      else if (e.key === '-') pdfZoom(-0.25);
-    });
 
     function escapeHtml(s) {
       return String(s || '')
