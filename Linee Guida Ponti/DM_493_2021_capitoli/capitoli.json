@@ -1,0 +1,80 @@
+{
+  "documento": "DM_493_2021_LG_Ponti",
+  "pdf_originale": "DM_493_2021_testo_LG_Ponti.pdf",
+  "pagine_totali": 97,
+  "strategia": "confini manuali",
+  "capitoli": [
+    {
+      "numero": 1,
+      "titolo": "PARTE I - Introduzione",
+      "file": "01_PARTE_I_-_Introduzione.pdf",
+      "pagine": 10,
+      "pag_inizio": 13,
+      "pag_fine": 22,
+      "dimensione_kb": 555
+    },
+    {
+      "numero": 2,
+      "titolo": "Livello 0 - Censimento",
+      "file": "02_Livello_0_-_Censimento.pdf",
+      "pagine": 6,
+      "pag_inizio": 23,
+      "pag_fine": 28,
+      "dimensione_kb": 265
+    },
+    {
+      "numero": 3,
+      "titolo": "Livello 1 - Ispezioni visive e schede difettosità",
+      "file": "03_Livello_1_-_Ispezioni_visive_e_schede_difettosita.pdf",
+      "pagine": 10,
+      "pag_inizio": 29,
+      "pag_fine": 38,
+      "dimensione_kb": 343
+    },
+    {
+      "numero": 4,
+      "titolo": "Livello 2 - Classi di attenzione",
+      "file": "04_Livello_2_-_Classi_di_attenzione.pdf",
+      "pagine": 22,
+      "pag_inizio": 39,
+      "pag_fine": 60,
+      "dimensione_kb": 627
+    },
+    {
+      "numero": 5,
+      "titolo": "Livello 3 - Valutazione preliminare dell'opera",
+      "file": "05_Livello_3_-_Valutazione_preliminare_dellopera.pdf",
+      "pagine": 2,
+      "pag_inizio": 61,
+      "pag_fine": 62,
+      "dimensione_kb": 170
+    },
+    {
+      "numero": 6,
+      "titolo": "Livello 4 - Verifica accurata della sicurezza",
+      "file": "06_Livello_4_-_Verifica_accurata_della_sicurezza.pdf",
+      "pagine": 13,
+      "pag_inizio": 63,
+      "pag_fine": 75,
+      "dimensione_kb": 355
+    },
+    {
+      "numero": 7,
+      "titolo": "PARTE III - Sistema di sorveglianza e monitoraggio",
+      "file": "07_PARTE_III_-_Sistema_di_sorveglianza_e_monitoraggio.pdf",
+      "pagine": 15,
+      "pag_inizio": 76,
+      "pag_fine": 90,
+      "dimensione_kb": 547
+    },
+    {
+      "numero": 8,
+      "titolo": "Allegati e bibliografia",
+      "file": "08_Allegati_e_bibliografia.pdf",
+      "pagine": 7,
+      "pag_inizio": 91,
+      "pag_fine": 97,
+      "dimensione_kb": 500
+    }
+  ]
+}
