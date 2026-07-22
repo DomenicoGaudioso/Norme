@@ -1,0 +1,674 @@
+[
+  {
+    "anno": "1906",
+    "estremi": "R.D. 16 settembre 1906 n.511 (G.U. 27 settembre 1906 n.225)",
+    "titolo": "Norme per le costruzioni, ricostruzioni e riparazioni degli edifici privati, pubblici e di uso pubblico nella regione calabrese e nei comuni della provincia di Messina danneggiati dal terremoto.",
+    "url": "../Norme Italiane/RD_16_09_1906_n511.pdf",
+    "tipo": "RD"
+  },
+  {
+    "anno": "1907",
+    "estremi": "D.M. 10 gennaio 1907 (G.U. 2 febbraio 1907 n.28)",
+    "titolo": "Metodi normali di prova per gli agglomeranti idraulici.",
+    "url": "../Norme Italiane/DM_10_01_1907.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1909",
+    "estremi": "L.12 gennaio 1909 n.12 (G.U. 12 gennaio 1909 n.08)",
+    "titolo": "Provvedimenti e disposizioni in seguito al terremoto del 28 dicembre 1908.",
+    "url": "../Norme Italiane/L_12_01_1909_n12.pdf",
+    "tipo": "L"
+  },
+  {
+    "anno": "1909",
+    "estremi": "R.D. 18 aprile 1909 n.193 (G.U. 22 aprile 1909 n.95 )",
+    "titolo": "Norme tecniche ed igieniche obbligatorie per le riparazioni, ricostruzioni e nuove costruzioni degli edifici pubblici e privati nei Comuni colpiti dal Terremoto del 28 dicembre 1908 o da altri precedenti, elencati nel R. decreto del 18 aprile 1909.",
+    "url": "../Norme Italiane/RD_18_04_1909_n193.pdf",
+    "tipo": "RD"
+  },
+  {
+    "anno": "1912",
+    "estremi": "R.D. 06 settembre 1912 n.1080 (G.U.19 ottobre 1912 n.247)",
+    "titolo": "Approvazione delle norme obbligatorie per le riparazioni, ricostruzioni e nuove costruzioni degli edifici nei comuni colpiti dal terremoto, in sostituzione di quelle approvate col r.d. 18 aprile 1909, n. 193",
+    "url": "../Norme Italiane/RD_06_09_1912_n1080.pdf",
+    "tipo": "RD"
+  },
+  {
+    "anno": "1915",
+    "estremi": "R.D. 29 aprile 1915 n.573 (G.U. 11 maggio 1915 n.247)",
+    "titolo": "Norme tecniche ed igieniche da osservarsi per i lavori edilizi nelle località colpite dal terremoto del 13/01/1915.",
+    "url": "../Norme Italiane/RD_29_04_1915_n573.pdf",
+    "tipo": "RD"
+  },
+  {
+    "anno": "1916",
+    "estremi": "D.L.L. 05 novembre 1916 n.1526 (G. U. 17 novembre 1916 n.270)",
+    "titolo": "Testo unico delle disposizioni legislative emanate in dipendenza del terremoto del 28 dicembre 1908.",
+    "url": "../Norme Italiane/DLL_05_11_1916_n1526.pdf",
+    "tipo": "DLL"
+  },
+  {
+    "anno": "1920",
+    "estremi": "R.D.L. 09 maggio 1920 n.665 (G.U. 02 giugno 1920 n.129)",
+    "titolo": "Modificazioni alle norme tecniche ed obbligatorie nelle località dal terremoto",
+    "url": "../Norme Italiane/RDL_09_05_1920_n665.pdf",
+    "tipo": "RDL"
+  },
+  {
+    "anno": "1924",
+    "estremi": "R.D. 23 ottobre 1924 n.2089 (G.U. 30 dicembre 1924 n.303)",
+    "titolo": "Norme tecniche ed igieniche per le riparazioni, ricostruzioni e nuove costruzioni degli edifici pubblici e privati nei comuni o frazioni di comune dichiarati zone sismiche.",
+    "url": "../Norme Italiane/RDL_23_10_1924_n2089.pdf",
+    "tipo": "RDL"
+  },
+  {
+    "anno": "1926",
+    "estremi": "R.D.L. 03 aprile 1926 n.705 (G.U.03 maggio 1926 n.102)",
+    "titolo": "Modificazioni alle norme tecniche ed igieniche di edilizia obbligatorie per le località colpite da terremoti.",
+    "url": "../Norme Italiane/RDL_03_04_1926_%20n705.pdf",
+    "tipo": "RDL"
+  },
+  {
+    "anno": "1927",
+    "estremi": "R.D.L. 13 marzo 1927 n.431 (G.U.08 aprile 1927 n.82)",
+    "titolo": "Norme tecniche ed igieniche per le riparazioni, ricostruzioni e nuove costruzioni degli edifici pubblici e privati nei comuni o frazioni di comune dichiarati zone sismiche.",
+    "url": "../Norme Italiane/RDL_13_03_1927_n431.pdf",
+    "tipo": "RDL"
+  },
+  {
+    "anno": "1927",
+    "estremi": "R.D.L. 04 Settembre 1927 n.1981 (G.U.11 novembre 1927 n.261)",
+    "titolo": "Norme per l'accettazione degli agglomerati idraulici e l'esecuzione delle opere in conglomerato cementizio semplice ed armato.",
+    "url": "../Norme Italiane/RDL_1927_09_04_n1981.pdf",
+    "tipo": "RDL"
+  },
+  {
+    "anno": "1930",
+    "estremi": "R.D. 03 aprile 1930 n.682 (G.U. 07 giugno 1930 n.133)",
+    "titolo": "Nuove Norme tecniche ed igieniche di edilizia per le località sismiche.",
+    "url": "../Norme Italiane/RD_03_04_1930_n682.pdf",
+    "tipo": "RD"
+  },
+  {
+    "anno": "1933",
+    "estremi": "R.D.L. 29 luglio 1933 n.1213 (G.U. 16 settembre 1933 n.224)",
+    "titolo": "Norme per l'accettazione dei leganti idraulici e per l'esecuzione delle opere in conglomerato cementizio.",
+    "url": "../Norme Italiane/RDL_29_07_1933_n1213.pdf",
+    "tipo": "RDL"
+  },
+  {
+    "anno": "1935",
+    "estremi": "R.D.L. 25 marzo 1935 n. 640 (G.U. 22 maggio 1935 n.120)",
+    "titolo": "Nuovo testo delle norme tecniche di edilizia con speciali prescrizioni per le località colpite dai terremoti.",
+    "url": "../Norme Italiane/RDL_22_03_1935_n640.pdf",
+    "tipo": "RDL"
+  },
+  {
+    "anno": "1937",
+    "estremi": "R.D. 22 novembre 1937 n. 2105 (G.U. 27 dicembre 1937 n.298)",
+    "titolo": "Norme tecniche ed igieniche per le riparazioni, ricostruzioni e nuove costruzioni degli edifici pubblici e privati nei comuni o frazioni di comune dichiarati zone sismiche.",
+    "url": "../Norme Italiane/RDL_22_11_1937_n2105.pdf",
+    "tipo": "RDL"
+  },
+  {
+    "anno": "1939",
+    "estremi": "R.D.L. 16 novembre 1939 n.2228 (G.U. 18 aprile 1940 n.92)",
+    "titolo": "Norme per l'accettazione dei leganti idraulici.",
+    "url": "../Norme Italiane/RDL_16_11_1939_n2228.pdf",
+    "tipo": "RDL"
+  },
+  {
+    "anno": "1939",
+    "estremi": "R.D.L. 16 novembre 1939 n. 2229 (G.U. 18 aprile 1940 n.92)",
+    "titolo": "Norme per l'esecuzione delle opere in conclomerato cementizio semplice e armato.",
+    "url": "../Norme Italiane/RDL_16_11_1939_n2229.pdf",
+    "tipo": "RDL"
+  },
+  {
+    "anno": "1957",
+    "estremi": "Circolare 23 maggio 1957 n.1472",
+    "titolo": "Armatura delle strutture in cemento armato.",
+    "url": "../Norme Italiane/C_1957_25_23_n1472.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1961",
+    "estremi": "Circolare 14 Settembre 1961 n.91",
+    "titolo": "Norme di sicurezza per la protezione contro il fuoco dei fabbricati a struttura in acciaio destinati ad uso civile.",
+    "url": "../Norme Italiane/C_14_09_1961_n91.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1962",
+    "estremi": "Circolare 14 febbraio 1962 n.384",
+    "titolo": "Norme relative ai carichi per il collaudo dei ponti stradali.",
+    "url": "../Norme Italiane/CM_14_02_1962_n384.pdf",
+    "tipo": "CM"
+  },
+  {
+    "anno": "1962",
+    "estremi": "L. 25 novembre 1962 n.1684 (G.U. 22 dicembre 1962 n.326)",
+    "titolo": "Provvedimenti per l'edilizia, con particolari prescrizioni per le zone sismiche.",
+    "url": "../Norme Italiane/L_25_11_1962_n1684.pdf",
+    "tipo": "L"
+  },
+  {
+    "anno": "1963",
+    "estremi": "Circolare 15 Marzo 1963 n.37",
+    "titolo": "Prevenzione incendi. Fabbricati con struttura in acciaio per usi industriali",
+    "url": "../Norme Italiane/C_15_03_1963_n37.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1965",
+    "estremi": "Circolare 17 Maggio 1965 n.1547",
+    "titolo": "Caratteristiche e modalità di impiego nel cemento armato degli acciai ad aderenza migliorata.",
+    "url": "../Norme Italiane/C_1965_05_17_n1547.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1966",
+    "estremi": "Circolare 05 Maggio 1966 n.2136",
+    "titolo": "Ministero dei lavori pubblici - Istruzioni sull'impiego delle tubazioni in acciaio saldate nella costruzione di acquedotti.",
+    "url": "../Norme Italiane/C_05_05_1966_n2136.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1967",
+    "estremi": "C.M.LL.PP. 6 novembre 1967 n.3797 (G.U. 22 dicembre 1962 n.326)",
+    "titolo": "Istruzioni per il progetto, esecuzione e collaudo delle fondazioni.",
+    "url": "../Norme Italiane/CLLPP_06_11_1967_n3797.pdf",
+    "tipo": "CLLPP"
+  },
+  {
+    "anno": "1968",
+    "estremi": "Circolare 15 Ottobre 1968 n.5226",
+    "titolo": "Acciai ad aderenza migliorata per calcestruzzo armato.",
+    "url": "../Norme Italiane/C_1968_10_15_n5226.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1969",
+    "estremi": "C.M.LL.PP. 11 agosto 1969 n.6090",
+    "titolo": "Norme per la progettazione, il calcolo e il collaudo di costruzioni in zone sismiche (post Belice 14-15/01/1968).",
+    "url": "../Norme Italiane/C_11_08_1969_n6090.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1971",
+    "estremi": "L. 5 novembre 1971 n.1086 (G.U. 21 dicembre 1971 n.321)",
+    "titolo": "Norme per la disciplina delle opere in c.a., normale e precompresso ed a struttura metallica.",
+    "url": "../Norme Italiane/L_5_11_1971_n1086.pdf",
+    "tipo": "L"
+  },
+  {
+    "anno": "1972",
+    "estremi": "D.M. 30 maggio 1972",
+    "titolo": "Norme tecniche alle quali devono uniformarsi le costruzioni in cemento armato (post evento sismico Ancona 25/01-21/06/1972).",
+    "url": "../Norme Italiane/DM_30_05_1972.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1974",
+    "estremi": "Cicolare 14 febbraio 1974 n. 11951",
+    "titolo": "Norme per la disciplina delle opere in c.a., normale e precompresso ed a struttura metallica.",
+    "url": "../Norme Italiane/C_14_02_1974_n11951.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1974",
+    "estremi": "D.M. 30 maggio 1974",
+    "titolo": "Norme tecniche per la esecuzione delle opere in cemento armato normale e precompresso e per strutture metalliche.",
+    "url": "../Norme Italiane/DMLLPP_30_05_1974.pdf",
+    "tipo": "DMLLPP"
+  },
+  {
+    "anno": "1974",
+    "estremi": "L. 2 febbraio 1974 n. 64 (G.U. 21 marzo 1974 n.76)",
+    "titolo": "Provvedimenti per le costruzioni con particolari prescrizioni per le zone sismiche.",
+    "url": "../Norme Italiane/L_02_02_1974_n64.pdf",
+    "tipo": "L"
+  },
+  {
+    "anno": "1975",
+    "estremi": "Circolare 25 gennaio 1975 n. 13229",
+    "titolo": "L'impiego di materiali con elevate caratteristiche di resistenza per cemento armato normale e precompresso.",
+    "url": "../Norme Italiane/C_25_01_1975_n13229.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1975",
+    "estremi": "D.M. 03 marzo 1975 n.40 (G.U. 08 aprile 1975 n.93)",
+    "titolo": "Approvazione delle norme tecniche per le costruzioni in zone sismiche.",
+    "url": "../Norme Italiane/DM_03_03_1975_n40.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1975",
+    "estremi": "D.M. 18 dicembre 1975 (G.U. 02 febbraio 1976 n.29)",
+    "titolo": "Norme tecniche aggiornate relative all'edilizia scolastica, ivi compresi gli indici di funzionalità didattica, edilizia ed urbanistica, da osservarsi nella esecuzione di opere di edilizia scolastica.",
+    "url": "../Norme Italiane/DM_18_12_1975.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1976",
+    "estremi": "D.M. 16 giugno 1976",
+    "titolo": "Norme per la disciplina delle opere in c.a. normale e precompressa (post Friuli 06/05/1976).",
+    "url": "../Norme Italiane/DM_16_06_1976.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1976",
+    "estremi": "L. 26 aprile 1976 n. 176 (G.U. 07 maggio 1976)",
+    "titolo": "Norme per l'istituzione del servizio sismico e disposizioni inerenti ai movimenti simici del 1971, del Novembre e Dicembre 1972, del Dicembre 1974 e del Gennaio 1975, in comuni della provincia di Perugia.",
+    "url": "../Norme Italiane/L_26_04_1976_n_176.pdf",
+    "tipo": "L"
+  },
+  {
+    "anno": "1977",
+    "estremi": "L.R. 20 giugno 1977 n. 30",
+    "titolo": "Nuove procedure per il recupero statico e funzionale degli edificimcolpiti dagli eventi tellurici – Ulteriori norme integrative della legge regionale 7 giugno 1976, n.17.",
+    "url": "../Norme Italiane/LR_20_06_1977_n_30.pdf",
+    "tipo": "LR"
+  },
+  {
+    "anno": "1978",
+    "estremi": "Circolare 09 novembre 1978 n. 18591",
+    "titolo": "Istruzioni relative ai carichi, sovraccarichi ed ai criteri generali per la verifica di sicurezza delle costruzioni.",
+    "url": "../Norme Italiane/19781109_C18591.pdf",
+    "tipo": "19781109"
+  },
+  {
+    "anno": "1978",
+    "estremi": "D.M. 03 ottobre 1978",
+    "titolo": "Criteri generali per la verifica di sicurezza delle costruzioni e dei carichi e sovraccarichi.",
+    "url": "../Norme Italiane/DM_03_10_1978.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1979",
+    "estremi": "Circolare 23 ottobre 1979 n. 19777",
+    "titolo": "Competenza amministrativa: legge 5-11-1971, n. 1086; legge 2-2-1974, n.64.",
+    "url": "../Norme Italiane/C_23_10_1979_n19777.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1979",
+    "estremi": "Circolare 31 luglio 1979 n. 19581",
+    "titolo": "Legge 5 novembre 1971, n.1086, art. 7 - Collaudo statico.",
+    "url": "../Norme Italiane/C_31_07_1979_n19581.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1980",
+    "estremi": "Circolare 09 gennaio 1980 n.20049",
+    "titolo": "Legge 5 novembre 1971, n.1086, art. 7 - Istruzioni relative ai controlli sul conglomerato cementizio adoperato per le strutture in cemento armato.",
+    "url": "../Norme Italiane/C_09_01_1980_n20049.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1980",
+    "estremi": "Circolare 11 novembre 1980 n.20977",
+    "titolo": "Criteri generali e prescrizioni tecniche per ponti stradali.",
+    "url": "../Norme Italiane/C_11_11_1980_n20977.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1980",
+    "estremi": "D.M. 02 agosto 1980 (G.U. 10 novembre 1980 n.308)",
+    "titolo": "Criteri generali e prescrizioni tecniche per la progettazione, esecuzione e collaudo di ponti stradali.",
+    "url": "../Norme Italiane/DM_02_08_1980.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1980",
+    "estremi": "D.M. 26 marzo 1980 (G.U. 28 giugno 1980 n.176)",
+    "titolo": "Norme tecniche per l'esecuzione delle opere in cemento armato normale, precompresso e per le strutture metalliche.",
+    "url": "../Norme Italiane/DM_26_03_1980.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1981",
+    "estremi": "Circolare 12 dicembre 1981 n.22120",
+    "titolo": "Ulteriori norme per l'accelerazione delle procedure per l'esecuzione di opere pubbliche.",
+    "url": "../Norme Italiane/CM_12_12_1981_n22120.pdf",
+    "tipo": "CM"
+  },
+  {
+    "anno": "1981",
+    "estremi": "Circolare 30 luglio 1981 n.21745",
+    "titolo": "Istruzioni relative alla normativa tecnica per la riparazione ed il rafforzamento degli edifici in muratura danneggiati dal sisma nelle regioni Basilicata, Campania e Puglia.",
+    "url": "../Norme Italiane/C_30_07_1981_n21745.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1981",
+    "estremi": "D.M. 02 luglio 1981 n.593 (G.U. 21 luglio 1981 n.198)",
+    "titolo": "Normativa per le riparazioni ed il rafforzamento degli edifici danneggiati dal sisma nelle regioni Basilicata, Campania e Puglia.",
+    "url": "../Norme Italiane/DM_02_07_1981_n593.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1981",
+    "estremi": "D.M. 07 marzo 1981 (G.U. 20 marzo 1981 n.79)",
+    "titolo": "Dichiarazione di zone sismiche nelle regioni Basilicata, Campania e Puglia.",
+    "url": "../Norme Italiane/DM_07_03_1981.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1981",
+    "estremi": "D.M. 21 gennaio 1981 (G.U. 07 febbraio 1981 n.37)",
+    "titolo": "Norme tecniche riguardanti le indagini sui terreni e sulle rocce, la stabilità dei pendii naturali e delle scarpate, i criteri generali e le prescrizioni per la progettazione, l'esecuzione e il collaudo delle opere di sostegno delle terre e delle opere di fondazione.",
+    "url": "../Norme Italiane/DM_21_01_1981.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1981",
+    "estremi": "D. 03 giugno 1981 (G.U. 30 giugno 1981 n.177)",
+    "titolo": "Aggiornamento delle norme tecniche per le costruzioni in zone sismiche.",
+    "url": "../Norme Italiane/D_03_06_1981.pdf",
+    "tipo": "D"
+  },
+  {
+    "anno": "1981",
+    "estremi": "L 10 dicembre 1981 n.741 (G.U. 16 dicembre 1981 n.344)",
+    "titolo": "Ulteriori norme per l'accelerazione delle procedure per l'esecuzione di opere pubbliche.",
+    "url": "../Norme Italiane/L_10_12_1981_n741.pdf",
+    "tipo": "L"
+  },
+  {
+    "anno": "1981",
+    "estremi": "L. 14 maggio 1981 n.219 (G.U. 18 maggio 1981 n.134)",
+    "titolo": "Recava provvedimenti a favore della popolazione colpita dal sisma del Novembre 1980 e del Febbraio 1981 in Campania e Basilicata (Irpinia) rispettivamente ed indicava i provvedimenti per la ricostruzione e lo sviluppo di quelle zone.",
+    "url": "../Norme Italiane/L_14_05_1981_n219.pdf",
+    "tipo": "L"
+  },
+  {
+    "anno": "1982",
+    "estremi": "D.M. 12 febbraio 1982",
+    "titolo": "Criteri generali per la verifica della sicurezza delle costruzioni e dei carichi e sovraccarichi.",
+    "url": "../Norme Italiane/DM_1982_02_12.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1983",
+    "estremi": "D.M. 01 aprile 1983 n.47 (G.U. 17 agosto 1983 n.224 S.O. n.47)",
+    "titolo": "Norme per la disciplina delle opere in c.a., normale e precompresso ed a struttura metallica.",
+    "url": "../Norme Italiane/DM_01_04_1983_n47.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1984",
+    "estremi": "D.M. 05 marzo 1984 (G.U. 31 marzo 1984 n.91)",
+    "titolo": "Dichiarazione di sismicità di alcune zone della regione Lombardia.",
+    "url": "../Norme Italiane/DM_05_03_1984.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1984",
+    "estremi": "D.M. 19 giugno 1984 (G.U. 30 luglio 1984 n.208)",
+    "titolo": "Norme tecniche relative alle costruzioni sismiche.",
+    "url": "../Norme Italiane/DM_19_06_1984.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1985",
+    "estremi": "D.M. 15 maggio 1985 (G.U. 10 giungno 1985 n.135)",
+    "titolo": "Accertamenti e norme tecniche per la certificazione di idoneità statica delle costruzioni abusive.",
+    "url": "../Norme Italiane/DM_15_05_1985.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1985",
+    "estremi": "D.M. 27 luglio 1985 (G.U. 17 maggio 1986 n.113)",
+    "titolo": "Norme per la disciplina delle opere in c.a., normale e precompresso ed a struttura metallica.",
+    "url": "../Norme Italiane/DM_27_07_1985.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1986",
+    "estremi": "C.M. BB.CC.AA. 18 luglio 1986 n.1032",
+    "titolo": "Interventi sul Patrimonio monumentale a tipologia specialistica in zone sismiche: raccomandazioni.",
+    "url": "../Norme Italiane/C_18_07_1986_n1032.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1986",
+    "estremi": "C.M.LL.PP. 19 luglio 1986 n.27690",
+    "titolo": "Istruzioni relative alla normativa tecnica per le costruzioni in zona sismica al D.M. del 24/01/1986.",
+    "url": "../Norme Italiane/C_19_07_1986_n27690.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1986",
+    "estremi": "C.M.LL.PP. 31 ottobre 1986 n.27996",
+    "titolo": "Istruzioni relative alle norme tecniche per l'esecuzione delle opere in cemento armato.",
+    "url": "../Norme Italiane/C_31_10_86_n27996.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1986",
+    "estremi": "D.M. 24 gennaio 1986 (G.U. 12 maggio 1986 n.108)",
+    "titolo": "Norme tecniche relative alle costruzioni antisismiche.",
+    "url": "../Norme Italiane/DM_24_01_1986.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1987",
+    "estremi": "Circolare 01 settembre 1987 n. 29010",
+    "titolo": "Ministero dei lavori pubblici - Legge 5 novembre 1971 n. 1086 - D.M. 27/7/1985 Controllo dei materiali in genere e degli acciai per cemento armato normale in particolare.",
+    "url": "../Norme Italiane/C_01_09_1987.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1987",
+    "estremi": "D.M. 3 dicembre 1987 (G.U. 07 maggio 1988 n.106)",
+    "titolo": "Norme tecniche per progettazione, esecuzione e collaudo delle costruzioni prefabbricate.",
+    "url": "../Norme Italiane/DM_03_12_1987.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1987",
+    "estremi": "D.M. 9 gennaio 1987 n.58 (G.U. 19 giugno 1987 n.141)",
+    "titolo": "Norme tecniche per la progettazione, esecuzione e collaudo degli edifici in muratura e per il loro consolidamento.",
+    "url": "../Norme Italiane/DM_09_01_1987_n58.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1987",
+    "estremi": "D.M. 20 novembre 1987 (G.U. 05 dicembre 1987 n.285)",
+    "titolo": "Norme tecniche per progettazione, esecuzione e collaudo degli edifici in muratura e per il loro consolidamento.",
+    "url": "../Norme Italiane/DM_20_11_1987.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1988",
+    "estremi": "Circolare 24 settembre 1988 n.30483",
+    "titolo": "Norme tecniche riguardanti le indagini sui terreni e sulle rocce, la stabilità dei pendii naturali e delle scarpate etc..",
+    "url": "../Norme Italiane/C_24_09_1988_n30483.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1988",
+    "estremi": "D.M. 11 marzo 1988 (G.U. 01/06/1988 n.127)",
+    "titolo": "Norme tecniche riguardanti le indagini sui terreni e sulle rocce, la stabilità dei pendii naturali e delle scarpate, i criteri generali e le prescrizioni per la progettazione, l'esecuzione ed il collaudo delle opere di sostegno delle terre e delle opere di fondazione.",
+    "url": "../Norme Italiane/DM_11_03_1988.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1989",
+    "estremi": "C.M.LL.PP. 4 gennaio 1989 n.30787",
+    "titolo": "Istruzioni in merito alle Norme tecniche per la progettazione, esecuzione e collaudo degli edifici in muratura e per il loro consolidamento.",
+    "url": "../Norme Italiane/C_04_01_1989_n30787.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1989",
+    "estremi": "Circolare 16 Marzo 1989 n. 31104",
+    "titolo": "Ministero dei lavori pubblici - Legge 2-2-1974 n. 64 art. 1 - Istruzione in merito alle norme tecniche per la progettazione, esecuzione e collaudo delle costruzioni prefabbricate.",
+    "url": "../Norme Italiane/C_16_03_1989_n31104.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1990",
+    "estremi": "D.M. 4 maggio 1990",
+    "titolo": "Aggiornamento delle norme tecniche per la progettazione, la esecuzione e il collaudo dei ponti stradali.",
+    "url": "../Norme Italiane/DM_04_05_1990.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1991",
+    "estremi": "Circolare 25 febbraio 1991 n.34233",
+    "titolo": "Aggiornamento delle norme tecniche per la progettazione, esecuzione e collaudo dei ponti.",
+    "url": "../Norme Italiane/C_25_02_1991_34233.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1992",
+    "estremi": "D.M. 14 febbraio 1992 (G.U. 18 marzo 1992 n.65)",
+    "titolo": "Norme tecniche per le opere in c.a. normale e precompresso e per le strutture metalliche.",
+    "url": "../Norme Italiane/DM_14_02_1992.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1993",
+    "estremi": "Circolare 24 giugno 1993 n. 37406",
+    "titolo": "Norme tecniche per opere in c.a. normale e precompresso.",
+    "url": "../Norme Italiane/C_24_06_1993_n37406.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1996",
+    "estremi": "C.M. 4 luglio 1996 n.156 (G.U. 16 settembre 1996 n.217)",
+    "titolo": "Norme tecniche relative ai criteri generali di verifica di sicurezza delle costruzioni e dei carichi e sovraccarichi.",
+    "url": "../Norme Italiane/CM_04_07_1996_n156.pdf",
+    "tipo": "CM"
+  },
+  {
+    "anno": "1996",
+    "estremi": "C.M. 15 ottobre 1996 n.252 (S.O.G.U. 26 novembre 1996 n.277)",
+    "titolo": "Istruzioni per l'applicazione delle \"Norme tecniche per il calcolo, l'esecuzione ed il collaudo delle opere in cemento armato normale e precompresso e per le strutture metalliche\" di cui al D.M. del 9 Gennaio 1996.",
+    "url": "../Norme Italiane/CM_15_10_1996_n252.pdf",
+    "tipo": "CM"
+  },
+  {
+    "anno": "1996",
+    "estremi": "D.M. 04 marzo 1996 (G.U. 19 marzo 1996 n.66)",
+    "titolo": "Proroga del termine di entrata in vigore delle norme tecniche per le costruzioni in zone sismiche, di cui al DM 16-01-1996.",
+    "url": "../Norme Italiane/DM_04_03_1996.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1996",
+    "estremi": "D.M. 9 gennaio 1996 (G.U. 05 febbraio 1996 n.29)",
+    "titolo": "Norme tecniche per il calcolo, l'esecuzione ed il collaudo delle strutture in c.a. normale e precompresso e per le strutture metalliche.",
+    "url": "../Norme Italiane/DM_09_01_1996.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1996",
+    "estremi": "D.M. 9 gennaio 1996 (G.U. 05 febbraio 1996 n.29)",
+    "titolo": "Norme tecniche per il calcolo, l'esecuzione ed il collaudo delle strutture in c.a. normale e precompresso e per le strutture metalliche. (versione editata/ridevida)",
+    "url": "../Norme Italiane/DM_09_01_1996_edit.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1996",
+    "estremi": "D.M. 16 gennaio 1996 (G.U. 05 febbraio 1996 n.29)",
+    "titolo": "Norme tecniche relative ai criteri generali di verifica di sicurezza delle costruzioni e dei carichi e sovraccarichi.",
+    "url": "../Norme Italiane/DM_16_01_1996.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "1997",
+    "estremi": "Circolare 10 aprile 1997 n.65 (G.U. 28 aprile 1997 n.97)",
+    "titolo": "Istruzioni per l'applicazione delle \"Norme tecniche per le costruzioni in zone sismiche\" di cui al D.M. 16 Gennaio 1996.",
+    "url": "../Norme Italiane/C_10_04_1997_n65.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "1999",
+    "estremi": "D. M. 05 agosto 1999 (G.U. 14 agosto 1999 n.190)",
+    "titolo": "Modificazioni al decreto ministeriale 9 gennaio 1996 contenente norme tecniche per il calcolo, l'esecuzione ed il collaudo delle strutture in cemento armato normale e precompresso e per le strutture metalliche.",
+    "url": "../Norme Italiane/DM_05_08_1999.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "2003",
+    "estremi": "Det. 13 Marzo 2003 n.7 (G. U. 03 aprile 2003 n. 78)",
+    "titolo": "Autorità per la vigilanza sui lavori pubblici - Fornitura e posa in opera di acciaio presagomato.",
+    "url": "../Norme Italiane/D_13_03_2003_n7.pdf",
+    "tipo": "D"
+  },
+  {
+    "anno": "2003",
+    "estremi": "OPCM 02 ottobre 2003 n. 3316 (G.U. 10 ottobre 2003 n.236)",
+    "titolo": "Modifiche ed integrazioni all'OPCM 3274 del 20 marzo 2003.",
+    "url": "../Norme Italiane/OPCM_02_10_2003_n3316.pdf",
+    "tipo": "OPCM"
+  },
+  {
+    "anno": "2004",
+    "estremi": "OPCM 23 gennaio 2004 n. 3333 (G.U. 02 febbraio 2004 n.26)",
+    "titolo": "Modifiche all'OPCM 3274 del 20 marzo 2003.",
+    "url": "../Norme Italiane/OPCM_23_01_2004_n3333.pdf",
+    "tipo": "OPCM"
+  },
+  {
+    "anno": "2005",
+    "estremi": "D.M. 14 Settembre 2005 (G.U. 23 settembre 2005 n.222)",
+    "titolo": "Norme Tecniche per le Costruzioni (ex \"Testo unico\" delle Norme Tecniche per le Costruzioni).",
+    "url": "../Norme Italiane/DM_14_09_2005.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "2008",
+    "estremi": "D.M. 14 gennaio 2008 (G.U. 04 febbraio 2008 n.29)",
+    "titolo": "Norme tecniche per le costruzioni.",
+    "url": "../Norme Italiane/DM_14_01_2008.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "2009",
+    "estremi": "Circolare 2 febbraio 2009 n. 617 (G.U. n. 47 del 26 febbraio 2009)",
+    "titolo": "Istruzioni per l'Applicazione Nuove Norme Tecniche Costruzioni di cui al Decreto Ministeriale 14 gennaio 2008.",
+    "url": "../Norme Italiane/C_02_02_2009_n617.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "2009",
+    "estremi": "Circolare 11 dicembre 2009 n.111209 (G.U. 22 dicembre 2009 n. 297)",
+    "titolo": "Entrata in vigore delle norme tecniche per le costruzioni di cui al decreto ministeriale 14 gennaio 2008.",
+    "url": "../Norme Italiane/C_11_12_2009_n111209.pdf",
+    "tipo": "C"
+  },
+  {
+    "anno": "2011",
+    "estremi": "D.M. 15 novembre 2011 (G. U. 19 novembre 2011 n.270)",
+    "titolo": "Modifica delle norme tecniche per le costruzioni in materia di utilizzo degli acciai B450A.",
+    "url": "../Norme Italiane/DM_15_11_2011.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "2017",
+    "estremi": "D.M. 28 febbraio 2017 n.58",
+    "titolo": "Sisma Bonus - Linee guida per la classificazione del rischio sismico delle costruzioni",
+    "url": "../Norme Italiane/DM_28_02_2017.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "2018",
+    "estremi": "D.M. 17 gennaio 2018 (G.U. 20 febbraio 2018)",
+    "titolo": "Norme tecniche per le costruzioni",
+    "url": "../Norme Italiane/DM_17_01_2018.pdf",
+    "tipo": "DM"
+  },
+  {
+    "anno": "2019",
+    "estremi": "Circolare 21 gennaio 2019 n.7 (G.U. 11 febbraio 2019 n. 35)",
+    "titolo": "Istruzioni per l'applicazione dell'Aggiornamento delle \"Norme tecniche per le costruzioni\" di cui al decreto ministeriale 17 gennaio 2018",
+    "url": "../Norme Italiane/C_21_01_2019_n7.pdf",
+    "tipo": "C"
+  }
+]

@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archivio Norme — Normativa tecnica italiana per le costruzioni</title>
+  <meta name="description" content="Archivio cronologico della normativa tecnica italiana per le costruzioni: 95 documenti dal 1906 al 2019.">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --primary-light: #2c5f8a;
+      --accent: #2980b9;
+      --accent2: #27ae60;
+      --danger: #e74c3c;
+      --warn: #f39c12;
+      --bg: #f7f9fc;
+      --card: #ffffff;
+      --border: #e1e8ed;
+      --text: #2c3e50;
+      --text-muted: #6b7c8a;
+      --shadow: 0 2px 8px rgba(26, 58, 92, 0.08);
+      --shadow-hover: 0 6px 20px rgba(26, 58, 92, 0.15);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+      color: #fff;
+      padding: 60px 24px 80px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120%;
+      height: 100px;
+      background: var(--bg);
+      border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    }
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      opacity: 0.92;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .hero .stats {
+      margin-top: 28px;
+      display: flex;
+      justify-content: center;
+      gap: 36px;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 2;
+    }
+    .hero .stats div {
+      text-align: center;
+    }
+    .hero .stats .num {
+      font-size: 2rem;
+      font-weight: 700;
+      display: block;
+    }
+    .hero .stats .lab {
+      font-size: 0.85rem;
+      opacity: 0.85;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* CONTAINER */
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* CONTROLS */
+    .controls {
+      background: var(--card);
+      padding: 24px;
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+      margin: -40px auto 28px;
+      position: relative;
+      z-index: 3;
+      max-width: 1180px;
+    }
+    .controls-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr auto;
+      gap: 14px;
+      align-items: end;
+    }
+    .controls label {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    .controls input,
+    .controls select {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      background: #fff;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .controls input:focus,
+    .controls select:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.15);
+    }
+    .btn-reset {
+      padding: 10px 18px;
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-reset:hover { background: var(--primary-light); }
+
+    /* RESULTS META */
+    .results-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    .results-meta strong { color: var(--primary); }
+
+    /* CARDS GRID */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      gap: 16px;
+      padding-bottom: 60px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: 10px;
+      padding: 18px 20px;
+      transition: box-shadow 0.18s, transform 0.18s;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .card:hover {
+      box-shadow: var(--shadow-hover);
+      transform: translateY(-2px);
+    }
+    .card.highlight {
+      border-left-color: var(--accent2);
+    }
+    .card .year-badge {
+      display: inline-block;
+      background: var(--primary);
+      color: #fff;
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      width: fit-content;
+    }
+    .card.highlight .year-badge { background: var(--accent2); }
+    .card .tipo {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+    .card .titolo {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.4;
+    }
+    .card .estremi {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+    .card .link {
+      margin-top: auto;
+      padding-top: 8px;
+    }
+    .card .link a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border: 1.5px solid var(--accent);
+      border-radius: 6px;
+      transition: all 0.15s;
+    }
+    .card .link a:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    /* EMPTY STATE */
+    .empty {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+    .empty .icon { font-size: 3rem; margin-bottom: 12px; }
+
+    /* FOOTER */
+    .footer {
+      background: var(--primary);
+      color: rgba(255,255,255,0.85);
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.85rem;
+      margin-top: auto;
+    }
+    .footer a { color: #fff; text-decoration: underline; }
+
+    /* LOADING */
+    .loading {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 760px) {
+      .controls-grid {
+        grid-template-columns: 1fr;
+      }
+      .hero h1 { font-size: 1.8rem; }
+      .hero .stats { gap: 20px; }
+    }
+
+    /* HIGHLIGHT BOX per documenti chiave */
+    .key-docs {
+      background: linear-gradient(135deg, rgba(39, 174, 96, 0.08), rgba(41, 128, 185, 0.06));
+      border: 1px solid rgba(39, 174, 96, 0.25);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 28px;
+      font-size: 0.9rem;
+    }
+    .key-docs strong { color: var(--accent2); }
+    .key-docs ul { margin: 8px 0 0 18px; }
+    .key-docs li { margin: 4px 0; }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <h1>📚 Archivio Norme</h1>
+    <p>Storia della normativa tecnica italiana per le costruzioni — dal Regio Decreto 511/1906 alle Norme Tecniche per le Costruzioni del 2018</p>
+    <div class="stats">
+      <div><span class="num" id="stat-total">—</span><span class="lab">Documenti</span></div>
+      <div><span class="num">1906–2019</span><span class="lab">Periodo</span></div>
+      <div><span class="num">113</span><span class="lab">Anni di storia</span></div>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <div class="controls">
+      <div class="controls-grid">
+        <div>
+          <label for="search">🔍 Cerca nel testo (titolo, estremi, anno)</label>
+          <input type="text" id="search" placeholder="es. NTC 2018, cemento armato, OPCM, sismica...">
+        </div>
+        <div>
+          <label for="filter-anno">📅 Anno</label>
+          <select id="filter-anno"><option value="">Tutti gli anni</option></select>
+        </div>
+        <div>
+          <label for="filter-tipo">🏷️ Tipo atto</label>
+          <select id="filter-tipo"><option value="">Tutti i tipi</option></select>
+        </div>
+        <div>
+          <button class="btn-reset" id="btn-reset">↺ Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="key-docs">
+      <strong>⭐ Riferimenti normativi vigenti:</strong>
+      <ul>
+        <li><strong>D.M. 17/01/2018</strong> — NTC 2018, Aggiornamento delle Norme Tecniche per le Costruzioni.</li>
+        <li><strong>Circolare 21/01/2019 n.7</strong> — Istruzioni per l'applicazione dell'Aggiornamento delle NTC.</li>
+        <li><strong>D.M. 14/01/2008</strong> — NTC 2008 (base storica) + Circolare n.617/2009.</li>
+        <li><strong>OPCM 3274/2003</strong> (con 3316/2003 e 3333/2004) — Classificazione sismica nazionale.</li>
+      </ul>
+    </div>
+
+    <div class="results-meta">
+      <span><strong id="result-count">—</strong> documenti trovati</span>
+      <span>Ordine cronologico ↑</span>
+    </div>
+
+    <div class="grid" id="grid">
+      <div class="loading">⏳ Caricamento documenti…</div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <p>Archivio normativo consultativo — tutti i documenti sono atti normativi italiani in Gazzetta Ufficiale (pubblico dominio).</p>
+    <p style="margin-top:8px;">Fonte: <a href="https://www.staticaesismica.it/staticaesismica_normativa.html">staticaesismica.it</a> · <a href="https://www.gazzettaufficiale.it/">Gazzetta Ufficiale</a></p>
+  </footer>
+
+  <script>
+    // Documenti chiave da evidenziare
+    const KEY_FILES = [
+      'DM_17_01_2018.pdf',      // NTC 2018
+      'C_21_01_2019_n7.pdf',    // Circolare 2019
+      'DM_14_01_2008.pdf',      // NTC 2008
+      'C_02_02_2009_n617.pdf',  // Circolare 617/2009
+      'OPCM_02_10_2003_n3316.pdf',
+      'OPCM_23_01_2004_n3333.pdf',
+      'L_02_02_1974_n64.pdf',   // Legge 64/1974
+    ];
+
+    let ALL_DATA = [];
+    let filtered = [];
+
+    // === LOAD ===
+    async function loadData() {
+      try {
+        const resp = await fetch('norme.json');
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        ALL_DATA = await resp.json();
+        // Ordina per anno crescente
+        ALL_DATA.sort((a, b) => (parseInt(a.anno) || 9999) - (parseInt(b.anno) || 9999));
+        document.getElementById('stat-total').textContent = ALL_DATA.length;
+        populateFilters();
+        applyFilters();
+      } catch (e) {
+        document.getElementById('grid').innerHTML =
+          '<div class="empty"><div class="icon">⚠️</div><p>Errore caricamento dati: ' + e.message + '</p>' +
+          '<p style="margin-top:8px;font-size:0.85rem">Se stai aprendo il file localmente, usa un server HTTP (fetch bloccato da file://).</p></div>';
+      }
+    }
+
+    // === FILTERS POPULATION ===
+    function populateFilters() {
+      const anni = [...new Set(ALL_DATA.map(d => d.anno).filter(Boolean))].sort();
+      const tipi = [...new Set(ALL_DATA.map(d => d.tipo).filter(Boolean))].sort();
+      const selAnno = document.getElementById('filter-anno');
+      const selTipo = document.getElementById('filter-tipo');
+      anni.forEach(a => {
+        const o = document.createElement('option');
+        o.value = a; o.textContent = a;
+        selAnno.appendChild(o);
+      });
+      // Map tipo codice → label leggibile
+      const TIPO_LABEL = {
+        'C': 'Circolare', 'CM': 'Circ. Ministeriale', 'CLLPP': 'C.M. LL.PP.',
+        'D': 'Decreto', 'DM': 'D.M.', 'DMLLPP': 'D.M. LL.PP.',
+        'L': 'Legge', 'LR': 'Legge Regionale', 'DLL': 'D.L.L.',
+        'RD': 'R.D.', 'RDL': 'R.D.L.', 'OPCM': 'O.P.C.M.',
+      };
+      tipi.forEach(t => {
+        const o = document.createElement('option');
+        o.value = t; o.textContent = TIPO_LABEL[t] || t;
+        selTipo.appendChild(o);
+      });
+    }
+
+    // === APPLY FILTERS ===
+    function applyFilters() {
+      const q = document.getElementById('search').value.toLowerCase().trim();
+      const anno = document.getElementById('filter-anno').value;
+      const tipo = document.getElementById('filter-tipo').value;
+
+      filtered = ALL_DATA.filter(d => {
+        if (anno && d.anno !== anno) return false;
+        if (tipo && d.tipo !== tipo) return false;
+        if (q) {
+          const hay = (d.titolo + ' ' + d.estremi + ' ' + d.anno + ' ' + d.tipo).toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+
+      render();
+    }
+
+    // === RENDER ===
+    function render() {
+      const grid = document.getElementById('grid');
+      const counter = document.getElementById('result-count');
+      counter.textContent = filtered.length;
+
+      if (filtered.length === 0) {
+        grid.innerHTML = '<div class="empty"><div class="icon">🔍</div><p>Nessun documento trovato con i filtri selezionati.</p></div>';
+        return;
+      }
+
+      grid.innerHTML = filtered.map(d => {
+        const isKey = KEY_FILES.includes(decodeURIComponent(d.url.split('/').pop()));
+        const cls = isKey ? 'card highlight' : 'card';
+        const tipoLabel = prettyTipo(d.tipo);
+        const safeTitolo = escapeHtml(d.titolo || d.estremi);
+        const safeEstremi = escapeHtml(d.estremi);
+        const fname = decodeURIComponent(d.url.split('/').pop());
+        return `
+          <article class="${cls}">
+            <span class="year-badge">${d.anno || '—'}</span>
+            <span class="tipo">${tipoLabel}${isKey ? ' · ⭐ chiave' : ''}</span>
+            <div class="titolo">${safeTitolo}</div>
+            <div class="estremi">${safeEstremi}</div>
+            <div class="link">
+              <a href="${d.url}" target="_blank" rel="noopener">📄 Apri PDF · ${fname}</a>
+            </div>
+          </article>`;
+      }).join('');
+    }
+
+    function prettyTipo(t) {
+      const map = {
+        'C': 'Circolare', 'CM': 'Circolare Ministeriale', 'CLLPP': 'C.M. LL.PP.',
+        'D': 'Decreto', 'DM': 'D.M. (Decreto Ministeriale)', 'DMLLPP': 'D.M. LL.PP.',
+        'L': 'Legge', 'LR': 'Legge Regionale', 'DLL': 'Decreto Legge Luogotenenziale',
+        'RD': 'Regio Decreto', 'RDL': 'Regio Decreto Legge', 'OPCM': 'Ordinanza PCM',
+      };
+      return map[t] || t;
+    }
+
+    function escapeHtml(s) {
+      return String(s || '')
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+
+    // === EVENTS ===
+    document.getElementById('search').addEventListener('input', applyFilters);
+    document.getElementById('filter-anno').addEventListener('change', applyFilters);
+    document.getElementById('filter-tipo').addEventListener('change', applyFilters);
+    document.getElementById('btn-reset').addEventListener('click', () => {
+      document.getElementById('search').value = '';
+      document.getElementById('filter-anno').value = '';
+      document.getElementById('filter-tipo').value = '';
+      applyFilters();
+    });
+
+    // === START ===
+    loadData();
+  </script>
+</body>
+</html>
