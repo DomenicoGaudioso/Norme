@@ -1,0 +1,63 @@
+{
+  "documento": "ANSFISA_Livello_2_dettaglio",
+  "pdf_originale": "Istruzioni_ANSFISA_2025/IstrOperative_LG_Ponti_ANSFISA_2025-08-04.pdf",
+  "sezione_padre": "Livello 2 - Classi di attenzione",
+  "pagine_totali_sezione": 59,
+  "strategia": "confini manuali",
+  "capitoli": [
+    {
+      "numero": 1,
+      "titolo": "4.1 - Struttura generale del metodo di classificazione",
+      "file": "01_41_-_Struttura_generale_del_metodo_di_classificazione.pdf",
+      "pagine": 1,
+      "pag_inizio": 31,
+      "pag_fine": 31,
+      "dimensione_kb": 314
+    },
+    {
+      "numero": 2,
+      "titolo": "4.2 - Classe di Attenzione strutturale e fondazionale",
+      "file": "02_42_-_Classe_di_Attenzione_strutturale_e_fondazionale.pdf",
+      "pagine": 19,
+      "pag_inizio": 32,
+      "pag_fine": 50,
+      "dimensione_kb": 914
+    },
+    {
+      "numero": 3,
+      "titolo": "4.3 - Classe di Attenzione sismica",
+      "file": "03_43_-_Classe_di_Attenzione_sismica.pdf",
+      "pagine": 11,
+      "pag_inizio": 51,
+      "pag_fine": 61,
+      "dimensione_kb": 682
+    },
+    {
+      "numero": 4,
+      "titolo": "4.4 - Classe di Attenzione associata al rischio frane",
+      "file": "04_44_-_Classe_di_Attenzione_associata_al_rischio_frane.pdf",
+      "pagine": 9,
+      "pag_inizio": 62,
+      "pag_fine": 70,
+      "dimensione_kb": 810
+    },
+    {
+      "numero": 5,
+      "titolo": "4.5 - Classe di Attenzione associata al rischio idraulico",
+      "file": "05_45_-_Classe_di_Attenzione_associata_al_rischio_idraulico.pdf",
+      "pagine": 15,
+      "pag_inizio": 71,
+      "pag_fine": 85,
+      "dimensione_kb": 973
+    },
+    {
+      "numero": 6,
+      "titolo": "4.6 - Analisi multi-rischio e definizione della Classe di Attenzione complessiva",
+      "file": "06_46_-_Analisi_multi-rischio_e_definizione_della_Classe_di_Att.pdf",
+      "pagine": 3,
+      "pag_inizio": 86,
+      "pag_fine": 88,
+      "dimensione_kb": 443
+    }
+  ]
+}

@@ -42,6 +42,19 @@ Documenti per la **classificazione e gestione del rischio, la valutazione della 
 | 7 | Sistema di sorveglianza e monitoraggio | 21 |
 | 8 | Bibliografia e riferimenti | 1 |
 
+#### 🔍 Livello 2 dettaglio (sotto-capitoli 4.1–4.6)
+
+Il Livello 2 (Classi di attenzione, 59 pagine) è suddiviso ulteriormente nei suoi sotto-capitoli nella cartella [`Istruzioni_ANSFISA_2025_capitoli/Livello_2_dettaglio/`](Istruzioni_ANSFISA_2025_capitoli/Livello_2_dettaglio/):
+
+| § | Titolo | Pagine |
+|---|--------|--------|
+| 4.1 | Struttura generale del metodo di classificazione | 1 |
+| 4.2 | Classe di Attenzione strutturale e fondazionale | 19 |
+| 4.3 | Classe di Attenzione sismica | 11 |
+| 4.4 | Classe di Attenzione associata al rischio frane | 9 |
+| 4.5 | Classe di Attenzione associata al rischio idraulico | 15 |
+| 4.6 | Analisi multi-rischio e Classe di Attenzione complessiva | 3 |
+
 Ogni cartella di split contiene `00_Completo.pdf` (PDF intero) + un PDF per sezione + `capitoli.json` (indice).
 
 ---
