@@ -529,6 +529,7 @@
       <div class="nav-links">
         <a href="#" onclick="switchTab('ntc_vigenti'); return false;">NTC vigenti</a>
         <a href="#" onclick="switchTab('lg_ponti'); return false;">Linee Guida Ponti</a>
+        <a href="#" onclick="switchTab('cnr_dt'); return false;">CNR-DT</a>
         <a href="#" onclick="switchTab('norme_storiche'); return false;">Archivio storico</a>
         <a href="https://github.com/DomenicoGaudioso/Norme">Repo</a>
       </div>
@@ -556,6 +557,10 @@
         <button class="tab-btn" data-cat="lg_ponti" onclick="switchTab('lg_ponti')">
           <span class="tab-icon">🌉</span> Linee Guida Ponti
           <span class="tab-count" id="count-lg_ponti">—</span>
+        </button>
+        <button class="tab-btn" data-cat="cnr_dt" onclick="switchTab('cnr_dt')">
+          <span class="tab-icon">📘</span> CNR-DT
+          <span class="tab-count" id="count-cnr_dt">—</span>
         </button>
         <button class="tab-btn" data-cat="norme_storiche" onclick="switchTab('norme_storiche')">
           <span class="tab-icon">📜</span> Norme storiche
@@ -692,6 +697,15 @@
           'Cronologia completa dei provvedimenti normativi italiani dal R.D. 511/1906.',
           '<strong>OPCM 3274/2003</strong> + modifiche 3316/2003 e 3333/2004 — Classificazione sismica.',
           '<strong>Legge 64/1974</strong> — Provvedimenti per le costruzioni in zona sismica.',
+        ],
+      },
+      'cnr_dt': {
+        title: '📘 Documenti Tecnici CNR',
+        keys: [
+          'I CNR-DT sono pubblicati dal <strong>Consiglio Nazionale delle Ricerche</strong>.',
+          '<strong>CNR-DT 207 R1/2018</strong> — Azioni del vento (riferimento principale per il vento in Italia).',
+          '<strong>CNR-DT 200 R2/2026</strong> — Rinforzo con FRP (ultima revisione).',
+          '⚠️ I PDF sono coperti da copyright CNR: il link porta al <strong>sito ufficiale CNR</strong> per il download personale.',
         ],
       },
     };
@@ -838,6 +852,7 @@
         'RD': 'Regio Decreto', 'RDL': 'Regio Decreto Legge', 'OPCM': 'Ordinanza PCM',
         'ANSFISA': 'Linee Guida ANSFISA',
         'LG_Ponti': 'Linee Guida Ponti',
+        'CNR_DT': 'Documento Tecnico CNR',
       };
       return map[t] || t;
     }

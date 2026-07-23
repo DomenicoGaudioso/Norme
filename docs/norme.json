@@ -797,5 +797,109 @@
     "url": "https://raw.githubusercontent.com/DomenicoGaudioso/Norme/main/Norme%20Italiane/C_11_12_2009_n111209.pdf",
     "tipo": "C",
     "categoria": "norme_storiche"
+  },
+  {
+    "anno": "2026",
+    "estremi": "CNR-DT 200 R2/2026",
+    "titolo": "Istruzioni per consolidamento statico con compositi FRP (versione corrente)",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2018",
+    "estremi": "CNR-DT 207 R1/2018 ⭐",
+    "titolo": "Istruzioni per la valutazione delle azioni e degli effetti del VENTO sulle costruzioni",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2018",
+    "estremi": "CNR-DT 214/2018",
+    "titolo": "Valutazione della robustezza delle costruzioni (eventi eccezionali)",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2018",
+    "estremi": "CNR-DT 215/2018",
+    "titolo": "Rinforzo con sistemi FRCM (matrice cementizia/inorganica)",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2015",
+    "estremi": "CNR-DT 213/2015",
+    "titolo": "Sicurezza strutturale di ponti stradali in muratura",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2014",
+    "estremi": "CNR-DT 206 R1/2014",
+    "titolo": "Istruzioni per strutture di legno (X-Lam, lamellare)",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2013",
+    "estremi": "CNR-DT 210/2013",
+    "titolo": "Strutture con elementi in vetro strutturale",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2013",
+    "estremi": "CNR-DT 211/2013",
+    "titolo": "Pavimentazioni di calcestruzzo",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2013",
+    "estremi": "CNR-DT 212/2013",
+    "titolo": "Valutazione affidabilistica della sicurezza sismica di edifici esistenti",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2008",
+    "estremi": "CNR-DT 207/2008",
+    "titolo": "Azioni del vento (versione precedente)",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2007",
+    "estremi": "CNR-DT 205/2007",
+    "titolo": "Profili pultrusi FRP",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2006",
+    "estremi": "CNR-DT 203/2006",
+    "titolo": "Strutture in c.a. con profili pultrusi FRP",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
+  },
+  {
+    "anno": "2006",
+    "estremi": "CNR-DT 204/2006",
+    "titolo": "Calcestruzzo fibrorinforzato FRC",
+    "url": "https://www.cnr.it/it/norme-tecniche-costruzioni",
+    "tipo": "CNR_DT",
+    "categoria": "cnr_dt"
   }
 ]
