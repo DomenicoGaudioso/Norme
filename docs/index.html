@@ -58,14 +58,25 @@
       top: 0;
       z-index: 100;
     }
+    /* Larghezza identica a .container mx-auto px-4 lg:px-6 py-4 di civilbox.xyz
+       (Tailwind v4: container passa a max-width 40/48/64/80/96rem agli stessi
+       breakpoint 640/768/1024/1280/1536px) — cosi' il logo non si sposta
+       passando da una pagina all'altra del sito. */
     header.site nav {
-      max-width: 1180px;
+      width: 100%;
+      max-width: 100%;
       margin: 0 auto;
-      padding: 16px 20px;
+      padding: 1rem 1rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      box-sizing: border-box;
     }
+    @media (min-width: 40rem)  { header.site nav { max-width: 40rem; } }
+    @media (min-width: 48rem)  { header.site nav { max-width: 48rem; } }
+    @media (min-width: 64rem)  { header.site nav { max-width: 64rem; padding-left: 1.5rem; padding-right: 1.5rem; } }
+    @media (min-width: 80rem)  { header.site nav { max-width: 80rem; } }
+    @media (min-width: 96rem)  { header.site nav { max-width: 96rem; } }
     .logo {
       display: flex;
       align-items: center;
