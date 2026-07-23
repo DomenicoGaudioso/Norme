@@ -74,9 +74,8 @@
       font-weight: 800;
       letter-spacing: -0.01em;
     }
-    .logo svg { width: 32px; height: 32px; }
-    .logo .brand-a { color: var(--brand-600); }
-    .logo .brand-b { color: var(--brand-700); }
+    .logo { color: var(--gray-900); text-decoration: none; }
+    .logo svg { width: 28px; height: 28px; flex-shrink: 0; }
     .nav-links {
       display: flex;
       gap: 28px;
@@ -90,6 +89,7 @@
       transition: color 0.15s;
     }
     .nav-links a:hover { color: var(--brand-600); }
+    .nav-links a.active { color: var(--brand-700); }
     .nav-links .badge-pro {
       background: var(--brand-100);
       color: var(--brand-700);
@@ -102,6 +102,7 @@
       margin-left: 4px;
     }
     @media (max-width: 760px) { .nav-links { display: none; } }
+    @media (max-width: 639px) { .logo svg.hidden-mobile { display: none; } }
 
     /* === HERO === */
     .hero {
@@ -517,21 +518,28 @@
 
   <header class="site">
     <nav>
-      <div class="logo">
-        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="14" cy="14" r="11" stroke="#4b5563" stroke-width="2"/>
-          <path d="M14 8 L14 14 L18 16" stroke="#2f8f9d" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M22 22 L28 28" stroke="#4b5563" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M14 4 L16 6 L14 8 L12 6 Z" fill="#2f8f9d"/>
+      <a href="https://civilbox.xyz/" class="logo">
+        <svg class="hidden-mobile" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <g stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 12.5 L2.3 9" />
+            <path d="M26 12.5 L29.7 9" />
+            <path d="M6 12.5 V24.8 a2.2 2.2 0 0 0 2.2 2.2 h15.6 a2.2 2.2 0 0 0 2.2 -2.2 V12.5" />
+            <path d="M6 12.5 H12.3" />
+            <path d="M19.7 12.5 H26" />
+          </g>
+          <g stroke="#2f8f9d" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 22 V6" />
+            <path d="M11.5 10.5 L16 6 L20.5 10.5" />
+          </g>
         </svg>
-        <span><span class="brand-a">Norme</span><span class="brand-b">IT</span></span>
-      </div>
+        <span>civilBox</span>
+      </a>
       <div class="nav-links">
-        <a href="#" onclick="switchTab('ntc_vigenti'); return false;">NTC vigenti</a>
-        <a href="#" onclick="switchTab('lg_ponti'); return false;">Linee Guida Ponti</a>
-        <a href="#" onclick="switchTab('cnr_dt'); return false;">CNR-DT</a>
-        <a href="#" onclick="switchTab('norme_storiche'); return false;">Archivio storico</a>
-        <a href="https://github.com/DomenicoGaudioso/Norme">Repo</a>
+        <a href="https://civilbox.xyz/tools">Strumenti</a>
+        <a href="https://civilbox.xyz/quaderno">Quaderno</a>
+        <a href="https://domenicogaudioso.github.io/Norme/" class="active">Norme</a>
+        <a href="https://civilbox.xyz/api">API</a>
+        <a href="https://civilbox.xyz/contatti">Contatti</a>
       </div>
     </nav>
   </header>
